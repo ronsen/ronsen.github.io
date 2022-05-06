@@ -20,6 +20,10 @@
             box-sizing: border-box;
         }
 
+        .section {
+            background-color: #fff;
+        }
+
         .section1 {
             background: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Balai_Kota_Pematangsiantar_01.jpg);
             background-size: cover;
@@ -82,7 +86,8 @@
                     <input type="email" id="email" name="email" placeholder="E-mail address" class="border p-2 w-full">
                 </div>
                 <div class="mb-6">
-                    <textarea id="message" name="message" placeholder="Your message" rows="" class="border p-2 w-full"></textarea>
+                    <textarea id="message" name="message" placeholder="Your message" rows=""
+                        class="border p-2 w-full"></textarea>
                 </div>
                 <button class="p-2 w-full bg-indigo-800 text-white">Submit</button>
             </form>
@@ -108,7 +113,7 @@
         $(document).ready(function () {
             $('#pagepiling').pagepiling();
 
-            $('#frmMessage').submit(function(e) {
+            $('#frmMessage').submit(function (e) {
                 e.preventDefault();
                 let name = $('#name').val();
                 let message = $('#message').val();
