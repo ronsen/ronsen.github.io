@@ -30,43 +30,67 @@
                         <i class="bi bi-envelope-fill mr-2"></i><a href="mailto:ronsen@startrek.or.id" class="underline">ronsen@startrek.or.id</a>
                     </div>
                     <div class="whitespace-nowrap">
-                        <i class="bi bi-telephone-fill mr-2"></i><a href="tel:+6281319479396" class="underline">0813-1947-9396</a>
+                        <i class="bi bi-telephone-fill mr-1"></i>
+                        <a href="tel:+6281319479396" class="underline mr-1">0813-1947-9396</a>
+                        <a href="https://wa.me/6281319479396"><i class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="flex flex-col gap-4 text-gray-800 mb-4 pb-4 border-b border-dotted" x-data="{open: false}">
+        <div class="flex flex-col gap-4 text-gray-800 pb-2 mb-2" x-data="{open: false}">
             <div @click="open = !open" class="cursor-pointer font-bold border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                Application Development
+                Projects
                 <i class="bi bi-chevron-down"></i>
             </div>
             <div x-show="open" class="flex justify-center flex-wrap gap-4 text-sm" x-transition>
-                <div class="bg-white rounded-full px-3">php</div>
-                <div class="bg-white rounded-full px-3">java</div>
-                <div class="bg-white rounded-full px-3">android</div>
-                <div class="bg-white rounded-full px-3">laravel</div>
-                <div class="bg-white rounded-full px-3">flutter</div>
-                <div class="bg-white rounded-full px-3">mysql</div>
-                <div class="bg-white rounded-full px-3">vue.js</div>
-                <div class="bg-white rounded-full px-3">svelte.js</div>
-                <div class="bg-white rounded-full px-3">inertia.js</div>
-                <div class="bg-white rounded-full px-3">alpine.js</div>
-                <div class="bg-white rounded-full px-3">jquery</div>
-                <div class="bg-white rounded-full px-3">linux</div>
+                <div class="bg-white rounded-full px-4 py-1">
+                    <div class="flex items-center gap-1">
+                        <a href="https://www.hetanews.com">Heta News</a>
+                        <i class="bi bi-box-arrow-up-right text-xs"></i>
+                    </div>
+                </div>
+                <div class="bg-white rounded-full px-4 py-1">
+                    <div class="flex items-center gap-1">
+                        <a href="https://bibel.vercel.app/">Bibel (Alkitab bahasa Batak Toba)</a>
+                        <i class="bi bi-box-arrow-up-right text-xs"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4 text-gray-800" x-data="{open: false}">
+                <div @click="open = !open" class="cursor-pointer font-bold border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+                    Skills
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div x-show="open" class="flex justify-center flex-wrap gap-4 text-sm" x-transition>
+                    <div class="bg-white rounded-full px-3">php</div>
+                    <div class="bg-white rounded-full px-3">java</div>
+                    <div class="bg-white rounded-full px-3">android</div>
+                    <div class="bg-white rounded-full px-3">laravel</div>
+                    <div class="bg-white rounded-full px-3">flutter</div>
+                    <div class="bg-white rounded-full px-3">mysql</div>
+                    <div class="bg-white rounded-full px-3">sqlite</div>
+                    <div class="bg-white rounded-full px-3">vue.js</div>
+                    <div class="bg-white rounded-full px-3">svelte.js</div>
+                    <div class="bg-white rounded-full px-3">inertia.js</div>
+                    <div class="bg-white rounded-full px-3">alpine.js</div>
+                    <div class="bg-white rounded-full px-3">jquery</div>
+                    <div class="bg-white rounded-full px-3">linux</div>
+                </div>
             </div>
         </div>
 
-        <div class="flex flex-col gap-4 text-gray-800 text-sm mt-4">
-            <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <a href="https://wa.me/6281319479396" class="font-semibold block uppercase">Contact me!</a>
-            </div>
+        <hr>
 
+        <div class="flex flex-col gap-4 text-gray-800 text-sm my-2 py-2 ">
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
                 <a href="https://sintaks.xyz/" class="block">My Tech Blog</a>
             </div>
 
-            <hr>
+            <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+                <a href="https://github.com/ronsen" class="block">Github</a>
+            </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
                 <a href="https://www.linkedin.com/in/ronaldnababan" class="block">LinkedIn</a>
@@ -81,7 +105,11 @@
             </div>
         </div>
 
-        <div class="text-center text-red-500 font-thin text-2xl mt-4">&hearts;</div>
+        <div class="flex justify-center text-white mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+            </svg>
+        </div>
     </div>
 </body>
 </html>
