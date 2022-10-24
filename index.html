@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ronald Nababan</title>
 <link href="/favicon.ico" rel="icon" type="image/x-icon">
-<link href="/assets/style.css?202210171245" rel="stylesheet">
+<link href="/assets/style.css?20221024" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -39,43 +39,37 @@
         </div>
 
         <div class="flex flex-col gap-4 text-gray-800 pb-2 mb-2" x-data="{open: false}">
-            <div @click="open = !open" class="cursor-pointer font-bold border border-blue-300 hover:border-blue-400 rounded-full bg-blue-300 p-2 text-center hover:bg-blue-400 text-black transition ease-out duration-300">
-                Projects
-                <i class="bi bi-chevron-down"></i>
+            <div class="flex justify-between items-center gap-3 text-white">
+                <div class="flex justify-start items-center gap-3 mb-3">
+                    <img src="/assets/images/hetanews.png" alt="Bibel" class="w-16 h-16 object-cover">
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Heta News</a>
+                        <p><a href="https://play.google.com/store/apps/details?id=com.hetanews">Media <em>online</em> Sumatera Utara</a></p>
+                    </div>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.hetanews"><i class="bi bi-chevron-right text-2xl"></i></a>
             </div>
-            <div x-show="open" class="flex justify-center flex-wrap gap-4 text-sm" x-transition>
-                <div class="bg-white rounded-full px-4 py-1">
-                    <a href="https://play.google.com/store/apps/details?id=com.hetanews">
-                        <div class="flex items-center gap-1">
-                            Heta News
-                            <i class="bi bi-box-arrow-up-right text-xs"></i>
-                        </div>
-                    </a>
+
+            <div class="flex justify-between items-center gap-3 text-white">
+                <div class="flex justify-start items-center gap-3 mb-3">
+                    <img src="/assets/images/bibel.png" alt="Bibel" class="w-16 h-16 object-cover">
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel" class="font-bold">Bibel</a>
+                        <p><a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel">Alkitab bahasa Batak Toba</a></p>
+                    </div>
                 </div>
-                <div class="bg-white rounded-full px-4 py-1">
-                    <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel">
-                        <div class="flex items-center gap-1">
-                            Bibel (Akitab bahasa Batak Toba)
-                            <i class="bi bi-box-arrow-up-right text-xs"></i>
-                        </div>
-                    </a>
+                <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel"><i class="bi bi-chevron-right text-2xl"></i></a>
+            </div>
+
+            <div class="flex justify-between items-center gap-3 text-white">
+                <div class="flex justify-start items-center gap-3 mb-3">
+                    <img src="/assets/images/ayatacak.png" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover">
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak" class="font-bold">Ayat Acak Alkitab</a>
+                        <p><a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak">Ayat emas Alkitab secara acak</a></p>
+                    </div>
                 </div>
-                <div class="bg-white rounded-full px-4 py-1">
-                    <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak">
-                        <div class="flex items-center gap-1">
-                            Ayat Acak Alkitab
-                            <i class="bi bi-box-arrow-up-right text-xs"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="bg-white rounded-full px-4 py-1">
-                    <a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">
-                        <div class="flex items-center gap-1">
-                            Popup this Video (Firefox Extension)
-                            <i class="bi bi-box-arrow-up-right text-xs"></i>
-                        </div>
-                    </a>
-                </div>
+                <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak"><i class="bi bi-chevron-right text-2xl"></i></a>
             </div>
 
             <div class="flex flex-col gap-4 text-gray-800" x-data="{open: false}">
@@ -104,7 +98,7 @@
         <hr>
 
         <div class="flex flex-col gap-4 text-gray-800 text-sm my-2 py-2 ">
-            <div class="border border-amber-300 hover:border-amber-400 hover:font-semibold rounded-full bg-amber-300 p-2 text-center hover:bg-amber-400 text-black transition ease-out duration-300">
+            <div class="border border-amber-300 hover:border-amber-400 hover:font-semibold rounded-full bg-amber-300 p-2 text-center hover:bg-amber-400 text-black font-bold transition ease-out duration-300">
                 <a href="https://sintaks.xyz/" class="block">My Tech Blog</a>
             </div>
 
@@ -123,7 +117,7 @@
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
                 <a href="https://twitter.com/Ronsen__" class="block">Twitter</a>
             </div>
-            <div class="border border-red-300 hover:border-red-400 rounded-full p-2 text-center bg-red-300 hover:bg-red-400 text-black hover:font-semibold transition ease-out duration-300">
+            <div class="border border-red-600 hover:border-red-800 rounded-full p-2 text-center bg-red-600 hover:bg-red-800 text-white hover:font-semibold font-bold transition ease-out duration-300">
                 <a href="https://trakteer.id/ronaldnababan/tip?quantity=1" class="block">Donate on Trakteer</a>
             </div>
         </div>
