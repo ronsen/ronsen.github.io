@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ronald Nababan</title>
 <link href="/favicon.ico" rel="icon" type="image/x-icon">
-<link href="/assets/style.css?20230217" rel="stylesheet">
+<link href="/assets/style.css?20230308" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -42,48 +42,52 @@
                     <i class="bi bi-chevron-down"></i>
                 </div>
                 <div x-show="open" x-transition>
-                    <div class="flex justify-between items-center gap-3 text-white">
-                        <div class="flex justify-start items-center gap-3 mb-3">
-                            <a href="https://play.google.com/store/apps/details?id=com.hetanews"><img src="/assets/images/hetanews.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg"></a>
+                    <div class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800">
+                        <div class="flex justify-start items-center gap-3"
+                                x-on:click="location.href='https://play.google.com/store/apps/details?id=com.hetanews'">
+                            <img src="/assets/images/hetanews.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg">
                             <div>
                                 <a href="https://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Heta News</a>
                                 <p>Media <em>online</em> Sumatera Utara</p>
                             </div>
                         </div>
-                        <a href="https://play.google.com/store/apps/details?id=com.hetanews"><i class="bi bi-chevron-right text-2xl"></i></a>
+                        <i class="bi bi-chevron-right text-2xl"></i>
                     </div>
 
-                    <div class="flex justify-between items-center gap-3 text-white">
-                        <div class="flex justify-start items-center gap-3 mb-3">
-                            <a href="https://filmpendek.vercel.app/"><img src="/assets/images/filmpendek.png" alt="Film Pendek" class="w-16 h-16 object-cover rounded-lg"></a>
+                    <div class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800"
+                            x-on:click="location.href='https://filmpendek.vercel.app/'">
+                        <div class="flex justify-start items-center gap-3">
+                            <img src="/assets/images/filmpendek.png" alt="Film Pendek" class="w-16 h-16 object-cover rounded-lg">
                             <div>
                                 <a href="https://filmpendek.vercel.app/" class="font-bold">Film Pendek</a>
                                 <p>Kumpulan Film Pendek Indonesia</p>
                             </div>
                         </div>
-                        <a href="filmpendek.vercel.app/"><i class="bi bi-chevron-right text-2xl"></i></a>
+                        <i class="bi bi-chevron-right text-2xl"></i>
                     </div>
 
-                    <div class="flex justify-between items-center gap-3 text-white">
-                        <div class="flex justify-start items-center gap-3 mb-3">
-                            <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel"><img src="/assets/images/bibel.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg"></a>
+                    <div class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800"
+                            x-on:click="location.href='https://play.google.com/store/apps/details?id=xyz.sintaks.bibel'">
+                        <div class="flex justify-start items-center gap-3">
+                            <img src="/assets/images/bibel.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg">
                             <div>
                                 <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel" class="font-bold">Bibel</a>
                                 <p>Alkitab bahasa Batak Toba</p>
                             </div>
                         </div>
-                        <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel"><i class="bi bi-chevron-right text-2xl"></i></a>
+                        <i class="bi bi-chevron-right text-2xl"></i>
                     </div>
 
-                    <div class="flex justify-between items-center gap-3 text-white">
-                        <div class="flex justify-start items-center gap-3 mb-3">
-                            <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak"><img src="/assets/images/ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg"></a>
+                    <div class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800"
+                            x-on:click="location.href='https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak'">
+                        <div class="flex justify-start items-center gap-3">
+                            <img src="/assets/images/ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
                             <div>
                                 <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak" class="font-bold">Ayat Acak Alkitab</a>
                                 <p>Ayat emas Alkitab secara acak</p>
                             </div>
                         </div>
-                        <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak"><i class="bi bi-chevron-right text-2xl"></i></a>
+                        <i class="bi bi-chevron-right text-2xl"></i>
                     </div>
                 </div>
             </div>
@@ -120,9 +124,9 @@
 
         <hr>
 
-        <div class="flex flex-col gap-4 text-gray-800 text-sm my-2 py-2 ">
+        <div class="flex flex-col gap-4 text-gray-800 text-sm my-2 py-2" x-data>
             <div class="border border-amber-300 hover:border-amber-400 hover:font-bold rounded-full bg-amber-300 p-2 text-center hover:bg-amber-400 text-black font-semibold transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://sintaks.vercel.app/'">
                     <i class="bi bi-house-heart-fill"></i>
                     <a href="https://sintaks.vercel.app/" class="block">My Tech Blog</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -130,7 +134,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://github.com/ronsen'">
                     <i class="bi bi-github"></i>
                     <a href="https://github.com/ronsen" class="block">Github</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -138,7 +142,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://www.linkedin.com/in/ronaldnababan'">
                     <i class="bi bi-linkedin"></i>
                     <a href="https://www.linkedin.com/in/ronaldnababan" class="block">LinkedIn</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -146,7 +150,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://www.facebook.com/ronsen'">
                     <i class="bi bi-facebook"></i>
                     <a href="https://www.facebook.com/ronsen" class="block">Facebook</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -154,7 +158,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://twitter.com/Ronsen__'">
                     <i class="bi bi-twitter"></i>
                     <a href="https://twitter.com/Ronsen__" class="block">Twitter</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -162,7 +166,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://www.instagram.com/ronaldnababan'">
                     <i class="bi bi-instagram"></i>
                     <a href="https://www.instagram.com/ronaldnababan" class="block">Instagram</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -170,7 +174,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://www.tiktok.com/@ronaldnababan'">
                     <i class="bi bi-tiktok"></i>
                     <a href="https://www.tiktok.com/@ronaldnababan" class="block">TikTok</a>
                     <i class="bi bi-box-arrow-up-right"></i>
@@ -178,7 +182,7 @@
             </div>
 
             <div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
-                <div class="flex justify-between px-3">
+                <div class="flex justify-between px-3 cursor-pointer" x-on:click="location.href='https://mastodon.social/@ronsen'">
                     <i class="bi bi-mastodon"></i>
                     <a href="https://mastodon.social/@ronsen" class="block">Mastodon</a>
                     <i class="bi bi-box-arrow-up-right"></i>
