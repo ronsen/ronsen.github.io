@@ -112,6 +112,12 @@
 
         <hr>
 
+        <div class="my-3 text-center text-white">
+            <div id="sponsor"></div>
+        </div>
+
+        <hr>
+
         <div class="flex flex-col gap-4 text-gray-800 text-sm my-2 py-2">
             <div class="border border-amber-300 hover:border-amber-400 hover:font-bold rounded-full bg-amber-300 p-2 text-center hover:bg-amber-400 text-black font-semibold transition ease-out duration-300">
                 <div x-data class="flex justify-between px-3 cursor-pointer" @click="window.open($refs.link.href, '_self')">
@@ -179,24 +185,6 @@
                 <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
             </svg>
         </div>
-
-        <div class="my-3" x-data>
-            <img @click="affiliate" src="/assets/images/tokopedia.jpg" alt="Tokopedia Affiliate" class="img-fluid cursor-pointer">
-        </div>
     </div>
-
-    <script>
-        const affiliate = () => {
-            const links = [
-                'https://tokopedia.link/611CLR7Jkzb',
-                'https://tokopedia.link/427y3g9Jkzb',
-                'https://tokopedia.link/TymoC39Jkzb',
-                'https://tokopedia.link/03S9KYaKkzb',
-                'https://tokopedia.link/jDU9ZMbKkzb',
-            ];
-
-            location.href = links[Math.floor(Math.random() * links.length)];
-        }
-    </script>
 </body>
 </html>
