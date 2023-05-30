@@ -46,10 +46,22 @@
                     <div x-data class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800"
                         @click="window.open($refs.link.href, '_self')">
                         <div class="flex justify-start items-center gap-3">
-                            <img src="/assets/images/hetanews.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg">
+                            <img src="/assets/images/hetanews.jpg" alt="Heta News" class="w-16 h-16 object-cover rounded-lg">
                             <div>
-                                <a x-ref="link" href="https://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Heta News</a>
+                                <a x-ref="link" href="https://www.hetanews.com/" class="font-bold">Heta News</a>
                                 <p>Media <em>online</em> Sumatera Utara</p>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-right text-2xl"></i>
+                    </div>
+
+                    <div x-data class="flex justify-between items-center gap-3 text-white cursor-pointer p-3 hover:bg-zinc-800"
+                        @click="window.open($refs.link.href, '_self')">
+                        <div class="flex justify-start items-center gap-3">
+                            <img src="/assets/images/popup.png" alt="Popup This Video" class="w-16 h-16 object-cover rounded-lg">
+                            <div>
+                                <a x-ref="link" href="https://github.com/ronsen/popup-this-video" class="font-bold">Popup This Video</a>
+                                <p>Popping up a small video window</p>
                             </div>
                         </div>
                         <i class="bi bi-chevron-right text-2xl"></i>
