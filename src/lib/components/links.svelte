@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-800 hover:border-green-800 hover:text-white transition ease-out duration-300">
 		<div class="flex justify-between items-center px-3">
 			<Fa icon={faGithub} />
 			<a href="https://github.com/ronsen" class="block">Github</a>
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-800 hover:border-green-800 hover:text-white transition ease-out duration-300">
 		<div class="flex justify-between items-center px-3">
 			<Fa icon={faLinkedinIn} />
 			<a href="https://www.linkedin.com/in/ronaldnababan" class="block">LinkedIn</a>
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 
-	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-800 hover:border-green-800 hover:text-white transition ease-out duration-300">
 		<div class="flex justify-between items-center px-3">
 			<Fa icon={faYoutube} />
 			<a href="https://www.youtube.com/@RonaldNababan" class="block">YouTube</a>
@@ -51,7 +51,7 @@
 		</div>
 	</div>
 
-	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-800 hover:border-green-800 hover:text-white transition ease-out duration-300">
 		<div class="flex justify-between items-center px-3">
 			<Fa icon={faFacebook} />
 			<a href="https://www.facebook.com/ronsen" class="block">Facebook</a>
@@ -59,7 +59,7 @@
 		</div>
 	</div>
 
-	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-400 hover:text-white transition ease-out duration-300">
+	<div class="border border-white rounded-full bg-white p-2 text-center hover:bg-green-800 hover:border-green-800 hover:text-white transition ease-out duration-300">
 		<div class="flex justify-between items-center px-3">
 			<Fa icon={faTwitter} />
 			<a href="https://twitter.com/rnldnbbn" class="block">Twitter</a>

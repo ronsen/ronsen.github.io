@@ -93,7 +93,7 @@
 		<div class="flex justify-between items-center gap-3 text-white p-3 hover:bg-zinc-800">
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
-				<a href="https://s.id/repak" class="font-bold">Repak Photography</a>
+				<a href="https://s.id/repakphotography" class="font-bold">Repak Photography</a>
 			</div>
 			<Fa icon={faChevronRight} />
 		</div>

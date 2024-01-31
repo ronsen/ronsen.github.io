@@ -31,10 +31,9 @@
 		<div class="bg-white rounded-full px-3">php</div>
 		<div class="bg-white rounded-full px-3">python</div>
 		<div class="bg-white rounded-full px-3">sqlite</div>
-		<div class="bg-white rounded-full px-3">svelte</div>
+		<div class="bg-white rounded-full px-3">sveltekit</div>
 		<div class="bg-white rounded-full px-3">tailwind css</div>
 		<div class="bg-white rounded-full px-3">typescript</div>
-		<div class="bg-white rounded-full px-3">vue</div>
 	</div>
 	{/if}
 </div>
