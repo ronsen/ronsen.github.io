@@ -5,9 +5,9 @@
 	let show = false;
 </script>
 
-<div class="flex flex-col gap-4 text-gray-800 pb-2 mb-2">
+<div class="flex flex-col gap-4 text-zinc-800 mt-3">
 	<button 
-		class="flex justify-center items-center gap-2 cursor-pointer font-bold border border-blue-600 hover:border-blue-700 rounded-full p-2 text-center bg-blue-600 hover:bg-blue-700 text-white transition ease-out duration-300"
+		class="flex justify-center items-center gap-2 cursor-pointer font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 		on:click|preventDefault={() => show = !show}
 	>
 		<span>Skills</span>
