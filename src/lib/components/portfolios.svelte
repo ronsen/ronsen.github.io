@@ -12,7 +12,7 @@
 <div class="flex flex-col gap-4">
 	<div class="flex flex-col gap-4">
 		<button 
-			class="flex justify-center items-center gap-2 font-bold border border-green-600 hover:border-green-700 rounded-full p-2 text-center bg-green-600 hover:bg-green-700 text-zinc-100 transition ease-out duration-300"
+			class="flex justify-center items-center gap-2 font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 			on:click|preventDefault={() => show = !show}
 		>
 			<span>Portfolios</span>
