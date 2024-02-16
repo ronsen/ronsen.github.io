@@ -7,6 +7,10 @@
 	} from '@fortawesome/free-solid-svg-icons';
 
 	let show = false;
+
+	function go(url: string) {
+		window.location.href = url;
+	}
 </script>
 
 <div class="flex flex-col gap-4">
@@ -22,7 +26,9 @@
 
 	{#if show}
 	<div>
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://www.hetanews.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./hetanews.jpg" alt="Heta News" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -33,15 +39,19 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://play.google.com/store/apps/details?id=com.hetanews')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
-				<a href="hhttps://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Android version</a>
+				<a href="https://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Android version</a>
 			</div>
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://m.hetanews.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://m.hetanews.com/" class="font-bold">Mobile version</a>
@@ -49,7 +59,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./popup.png" alt="Popup This Video" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -60,7 +72,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://play.google.com/store/apps/details?id=xyz.sintaks.bibel')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./bibel.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -71,7 +85,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://ayatacak.vercel.app/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -82,7 +98,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://www.barakconsultant.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://www.barakconsultant.com/" class="font-bold">Barak Consultant Services</a>
@@ -90,7 +108,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://fokus24.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://fokus24.id/" class="font-bold">Fokus24.id</a>
@@ -98,7 +118,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/repakphotography')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://s.id/repakphotography" class="font-bold">Repak Photography</a>
@@ -106,7 +128,9 @@
 			<Fa icon={faChevronRight} />
 		</div>
 
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/guritan')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://s.id/guritan" class="font-bold">Guritan</a>
