@@ -23,7 +23,7 @@
 	</div>
 
 	<div class="flex justify-center mb-6">
-		<a href="https://wa.me/6281319479396" class="w-full text-xl font-bold border border-amber-600 hover:border-amber-700 rounded-full p-4 text-center bg-amber-600 hover:bg-amber-700 text-zinc-100 hover:text-zinc-50 transition ease-out duration-300">
+		<a href="https://wa.me/6281319479396" class="w-full text-xl font-bold border border-green-600 hover:border-green-700 rounded-full p-4 text-center bg-green-600 hover:bg-green-700 text-zinc-100 hover:text-zinc-50 transition ease-out duration-300">
 			Hire me!
 		</a>
 	</div>

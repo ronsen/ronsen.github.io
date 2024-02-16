@@ -36,6 +36,14 @@
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
+				<a href="hhttps://play.google.com/store/apps/details?id=com.hetanews" class="font-bold">Android version</a>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800">
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
 				<a href="https://m.hetanews.com/" class="font-bold">Mobile version</a>
 			</div>
 			<Fa icon={faChevronRight} />
