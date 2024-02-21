@@ -120,16 +120,6 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/repakphotography')}>
-			<div class="flex justify-start items-center gap-3">
-				<Fa icon={faLink} />
-				<a href="https://s.id/repakphotography" class="font-bold">Repak Photography</a>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/guritan')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
