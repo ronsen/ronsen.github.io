@@ -29,6 +29,7 @@
 		<div class="bg-white rounded-full px-3">mysql</div>
 		<div class="bg-white rounded-full px-3">prisma</div>
 		<div class="bg-white rounded-full px-3">php</div>
+		<div class="bg-white rounded-full px-3">postgresql</div>
 		<div class="bg-white rounded-full px-3">python</div>
 		<div class="bg-white rounded-full px-3">sqlite</div>
 		<div class="bg-white rounded-full px-3">sveltekit</div>
