@@ -87,11 +87,11 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://ayatacak.vercel.app/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://ayatacak.sada.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
 				<div>
-					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
+					<a href="https://ayatacak.sada.web.id/" class="font-bold">Ayat Acak Alkitab</a>
 					<p>Ayat emas Alkitab secara acak</p>
 				</div>
 			</div>
