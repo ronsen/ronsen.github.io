@@ -74,19 +74,6 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://play.google.com/store/apps/details?id=xyz.sintaks.bibel')}>
-			<div class="flex justify-start items-center gap-3">
-				<img src="./bibel.jpg" alt="Bibel" class="w-16 h-16 object-cover rounded-lg">
-				<div>
-					<a href="https://play.google.com/store/apps/details?id=xyz.sintaks.bibel" class="font-bold">Bibel</a>
-					<p>Alkitab bahasa Batak Toba</p>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://ayatacak.sada.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
