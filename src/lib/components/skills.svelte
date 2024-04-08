@@ -18,6 +18,7 @@
 	<div class="flex justify-center flex-wrap gap-4 text-sm">
 		<div class="bg-white rounded-full px-3">android</div>
 		<div class="bg-white rounded-full px-3">bootstrap css</div>
+		<div class="bg-white rounded-full px-3">database</div>
 		<div class="bg-white rounded-full px-3">docker</div>
 		<div class="bg-white rounded-full px-3">express</div>
 		<div class="bg-white rounded-full px-3">flutter</div>
@@ -25,6 +26,7 @@
 		<div class="bg-white rounded-full px-3">javascript</div>
 		<div class="bg-white rounded-full px-3">jquery</div>
 		<div class="bg-white rounded-full px-3">laravel</div>
+		<div class="bg-white rounded-full px-3">livewire</div>
 		<div class="bg-white rounded-full px-3">linux</div>
 		<div class="bg-white rounded-full px-3">mysql</div>
 		<div class="bg-white rounded-full px-3">prisma</div>
