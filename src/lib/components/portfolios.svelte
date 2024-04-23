@@ -107,7 +107,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/guritan')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://hotel.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<a href="https://hotel.arsak.web.id/" class="font-bold">Hotel</a>
