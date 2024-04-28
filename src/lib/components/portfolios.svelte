@@ -107,6 +107,19 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://sada.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<a href="https://sada.web.id/" class="font-bold">Kasir</a>
+				<div class="text-sm text-gray-400">
+					Aplikasi Kasir Online
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://hotel.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
