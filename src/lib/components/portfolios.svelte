@@ -27,8 +27,8 @@
 
 	{#if show}
 	<div>
-		<div class="grid grid-cols-2 gap-4 mb-6">
-			<div class="border border-zinc-800 shadow-lg rounded-b-md">
+		<div class="grid grid-cols-2 gap-4 mb-6 text-black">
+			<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md ">
 				<a href="https://www.hetanews.com/">
 					<div class="flex justify-center items-center h-32 bg-amber-100 rounded-t-md">
 						<img src="./hetanews.png" alt="Heta News" class="w-16">
@@ -38,12 +38,12 @@
 					<h2 class="font-bold"><a href="https://www.hetanews.com/">Heta News</a></h2>
 					<div class="text-sm mb-2">Media online Sumatera Utara</div>
 					<div class="inline-flex gap-3">
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">Laravel</div>
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">mysql</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 					</div>
 				</div>
 			</div>
-			<div class="border border-zinc-800 shadow-lg rounded-b-md">
+			<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 				<a href="https://play.google.com/store/apps/details?id=com.hetanews">
 					<div class="flex justify-center items-center h-32 bg-cyan-100 rounded-t-md">
 						<img src="./hetanews.png" alt="Heta News" class="w-16">
@@ -53,30 +53,30 @@
 					<h2 class="font-bold"><a href="https://play.google.com/store/apps/details?id=com.hetanews">Heta News (Android)</a></h2>
 					<div class="text-sm mb-2">Media online Sumatera Utara</div>
 					<div class="inline-flex gap-3">
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">Laravel</div>
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">mysql</div>
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">Flutter</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Flutter</div>
 					</div>
 				</div>
 			</div>
-			<div class="border border-zinc-800 shadow-lg rounded-b-md">
+			<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 				<a href="https://fokus24.id/">
 					<div class="flex justify-center items-center h-32 bg-red-100 rounded-t-md">
 						<img src="./fokus24.png" alt="Heta News" class="w-16">
 					</div>
 				</a>
-				<div class="p-4">
+				<div class="p-4 h-auto">
 					<h2 class="font-bold"><a href="https://fokus24.id/">Fokus24.id</a></h2>
 					<div class="text-sm mb-2">Tepercaya dan Akurat</div>
 					<div class="inline-flex gap-3">
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">Laravel</div>
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">mysql</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 					</div>
 				</div>
 			</div>
-			<div class="border border-zinc-800 shadow-lg rounded-b-md">
+			<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 				<a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">
-					<div class="flex justify-center items-center h-32 bg-gray-100 rounded-t-md">
+					<div class="flex justify-center items-center h-32 bg-gray-300 rounded-t-md">
 						<img src="./popup.png" alt="Heta News" class="w-12">
 					</div>
 				</a>
@@ -84,7 +84,8 @@
 					<h2 class="font-bold"><a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">Popup This Video</a></h2>
 					<div class="text-sm mb-2">A browser extension that displays popups on videos</div>
 					<div class="inline-flex gap-3">
-						<div class="bg-zinc-800 px-2 py-1 rounded-lg text-xs">JavaScript</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">JavaScript</div>
+						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Firefox</div>
 					</div>
 				</div>
 			</div>
@@ -112,7 +113,7 @@
 				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
 				<div>
 					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
-					<p>Ayat emas Alkitab secara acak</p>
+					<div class="text-sm">Ayat emas Alkitab secara acak</div>
 				</div>
 			</div>
 			<Fa icon={faChevronRight} />
