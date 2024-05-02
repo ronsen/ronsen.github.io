@@ -2,13 +2,10 @@
 	import Fa from 'svelte-fa';
 	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 	import { 
-		faFacebook, 
 		faGithub, 
 		faLinkedinIn, 
 		faTwitter, 
-		faYoutube,
 		faBlogger,
-		faInstagram
 	} from '@fortawesome/free-brands-svg-icons';
 </script>
 
