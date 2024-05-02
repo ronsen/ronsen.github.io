@@ -76,7 +76,7 @@
 			</div>
 			<div class="border border-zinc-800 shadow-lg rounded-b-md">
 				<a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">
-					<div class="flex justify-center items-center h-32 bg-red-100 rounded-t-md">
+					<div class="flex justify-center items-center h-32 bg-gray-100 rounded-t-md">
 						<img src="./popup.png" alt="Heta News" class="w-12">
 					</div>
 				</a>
