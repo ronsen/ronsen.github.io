@@ -65,7 +65,7 @@
 						<img src="./fokus24.png" alt="Heta News" class="w-16">
 					</div>
 				</a>
-				<div class="p-4 h-auto">
+				<div class="p-4">
 					<h2 class="font-bold"><a href="https://fokus24.id/">Fokus24.id</a></h2>
 					<div class="text-sm mb-2">Tepercaya dan Akurat</div>
 					<div class="inline-flex gap-3">
