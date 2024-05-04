@@ -37,7 +37,7 @@
 				<div class="p-4">
 					<h2 class="font-bold"><a href="https://www.hetanews.com/">Heta News</a></h2>
 					<div class="text-sm mb-2">Media online Sumatera Utara</div>
-					<div class="inline-flex gap-3">
+					<div class="inline-flex flex-wrap gap-3">
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 					</div>
@@ -52,7 +52,7 @@
 				<div class="p-4">
 					<h2 class="font-bold"><a href="https://play.google.com/store/apps/details?id=com.hetanews">Heta News (Android)</a></h2>
 					<div class="text-sm mb-2">Media online Sumatera Utara</div>
-					<div class="inline-flex gap-3">
+					<div class="inline-flex flex-wrap gap-3">
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Flutter</div>
@@ -68,7 +68,7 @@
 				<div class="p-4">
 					<h2 class="font-bold"><a href="https://fokus24.id/">Fokus24.id</a></h2>
 					<div class="text-sm mb-2">Tepercaya dan Akurat</div>
-					<div class="inline-flex gap-3">
+					<div class="inline-flex flex-wrap gap-3">
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Laravel</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 					</div>
@@ -83,7 +83,7 @@
 				<div class="p-4">
 					<h2 class="font-bold"><a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">Popup This Video</a></h2>
 					<div class="text-sm mb-2">A browser extension that displays popups on videos</div>
-					<div class="inline-flex gap-3">
+					<div class="inline-flex flex-wrap gap-3">
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">JavaScript</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Firefox</div>
 					</div>
@@ -93,7 +93,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://sada.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://sada.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./kasir.png" alt="Kasir" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -109,7 +109,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://ayatacak.vercel.app/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://ayatacak.vercel.app/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
 				<div>
@@ -125,7 +125,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://www.barakconsultant.com/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://www.barakconsultant.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
@@ -141,7 +141,7 @@
 
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://hotel.arsak.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://hotel.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
@@ -157,7 +157,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://rental.arsak.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://rental.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
@@ -173,7 +173,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer" on:click={() => go('https://s.id/guritan')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://s.id/guritan')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
@@ -181,6 +181,22 @@
 					<div class="text-gray-400">
 						<p class="text-sm">Markdown editor for Blogger</p>
 						<p class="text-xs text-gray-600">SvelteKit, Google Blogger API, Vercel</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://arsak.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://arsak.web.id/" class="font-bold">Blog</a>
+					<div class="text-gray-400">
+						<p class="text-sm">My personal weblog</p>
+						<p class="text-xs text-gray-600">SvelteKit, Prisma, PostgreSQL</p>
 					</div>
 				</div>
 			</div>
