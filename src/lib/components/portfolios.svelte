@@ -100,7 +100,7 @@
 					<a href="https://sada.web.id/" class="font-bold">Kasir</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Aplikasi Kasir (Point-of-Sale) terbaik dan termurah</p>
-						<p class="text-xs text-gray-600">Laravel, Livewire, FilamentPHP, PostgreSQL</p>
+						<p class="text-xs text-gray-500">Laravel, Livewire, FilamentPHP, PostgreSQL</p>
 					</div>
 				</div>
 			</div>
@@ -109,14 +109,14 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://ayatacak.vercel.app/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://perpus.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
-				<img src="./ayatacak.jpg" alt="Ayat Acak Alkitab" class="w-16 h-16 object-cover rounded-lg">
+				<img src="./perpus.png" alt="Perpus" class="w-16 h-16 object-cover rounded-lg">
 				<div>
-					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
+					<a href="https://perpus.arsak.web.id/" class="font-bold">Perpus</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Ayat emas Alkitab secara acak</p>
-						<p class="text-xs text-gray-600">SvelteKit, Vercel</p>
+						<p class="text-sm">Sistem Informasi Perpustakaan (Demo)</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP</p>
 					</div>
 				</div>
 			</div>
@@ -132,14 +132,30 @@
 					<a href="https://www.barakconsultant.com/" class="font-bold">Barak Consultant Services</a>
 					<div class="text-gray-400">
 						<p class="text-sm">A company operating in the technology and information sector</p>
-						<p class="text-xs text-gray-600">PHP</p>
+						<p class="text-xs text-gray-500">PHP</p>
 					</div>
 				</div>
 			</div>
 			<Fa icon={faChevronRight} />
 		</div>
 
-	<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://ayatacak.vercel.app/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Ayat emas Alkitab secara acak</p>
+						<p class="text-xs text-gray-500">SvelteKit, Vercel</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://hotel.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
@@ -148,7 +164,7 @@
 					<a href="https://hotel.arsak.web.id/" class="font-bold">Hotel</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Sistem Informasi Hotel (Demo)</p>
-						<p class="text-xs text-gray-600">Laravel, FilamentPHP, sqlite</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
@@ -164,7 +180,7 @@
 					<a href="https://rental.arsak.web.id/" class="font-bold">Rental</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Sistem Rental Kendaraan Bermotor (Demo)</p>
-						<p class="text-xs text-gray-600">Laravel, FilamentPHP, sqlite</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
@@ -180,7 +196,7 @@
 					<a href="https://s.id/guritan" class="font-bold">Guritan</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Markdown editor for Blogger</p>
-						<p class="text-xs text-gray-600">SvelteKit, Google Blogger API, Vercel</p>
+						<p class="text-xs text-gray-500">SvelteKit, Google Blogger API, Vercel</p>
 					</div>
 				</div>
 			</div>
@@ -196,7 +212,7 @@
 					<a href="https://arsak.web.id/" class="font-bold">Blog</a>
 					<div class="text-gray-400">
 						<p class="text-sm">My personal weblog</p>
-						<p class="text-xs text-gray-600">SvelteKit, Prisma, PostgreSQL</p>
+						<p class="text-xs text-gray-500">SvelteKit, Prisma, PostgreSQL</p>
 					</div>
 				</div>
 			</div>
