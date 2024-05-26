@@ -24,7 +24,6 @@
 		<div class="bg-white rounded-full px-3">flutter</div>
 		<div class="bg-white rounded-full px-3">java</div>
 		<div class="bg-white rounded-full px-3">javascript</div>
-		<div class="bg-white rounded-full px-3">jquery</div>
 		<div class="bg-white rounded-full px-3">laravel</div>
 		<div class="bg-white rounded-full px-3">livewire</div>
 		<div class="bg-white rounded-full px-3">linux</div>

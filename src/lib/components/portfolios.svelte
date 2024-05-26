@@ -189,6 +189,22 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://rental.arsak.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://sekolah.arsak.web.id/" class="font-bold">Sekolah</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Sistem Informasi Sekolah (Demo)</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://s.id/guritan')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
