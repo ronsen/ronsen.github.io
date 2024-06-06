@@ -109,6 +109,22 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://inventaris.arsak.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<img src="./inventaris.png" alt="Perpus" class="w-16 h-16 object-cover rounded-lg">
+				<div>
+					<a href="https://inventaris.arsak.web.id/" class="font-bold">Inventaris</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Sistem Informasi Inventaris (Demo)</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://perpus.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<img src="./perpus.png" alt="Perpus" class="w-16 h-16 object-cover rounded-lg">
@@ -116,7 +132,7 @@
 					<a href="https://perpus.arsak.web.id/" class="font-bold">Perpus</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Sistem Informasi Perpustakaan (Demo)</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
@@ -133,38 +149,6 @@
 					<div class="text-gray-400">
 						<p class="text-sm">A company operating in the technology and information sector</p>
 						<p class="text-xs text-gray-500">PHP</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://ayatacak.vercel.app/')}>
-			<div class="flex justify-start items-center gap-3">
-				<Fa icon={faLink} />
-				<div>
-					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Ayat emas Alkitab secara acak</p>
-						<p class="text-xs text-gray-500">SvelteKit, Vercel</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://inventaris.arsak.web.id/')}>
-			<div class="flex justify-start items-center gap-3">
-				<Fa icon={faLink} />
-				<div>
-					<a href="https://inventaris.arsak.web.id/" class="font-bold">Inventaris</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Sistem Informasi Inventaris (Demo)</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
@@ -213,6 +197,22 @@
 					<div class="text-gray-400">
 						<p class="text-sm">Sistem Informasi Sekolah (Demo)</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://ayatacak.vercel.app/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://ayatacak.vercel.app/" class="font-bold">Ayat Acak Alkitab</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Ayat emas Alkitab secara acak</p>
+						<p class="text-xs text-gray-500">SvelteKit, Vercel</p>
 					</div>
 				</div>
 			</div>
