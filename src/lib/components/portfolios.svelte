@@ -109,9 +109,25 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://linimasa.arsak.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<img src="./linimasa.png" alt="Linimasa" class="w-16 h-16 object-cover rounded-lg">
+				<div>
+					<a href="https://linimasa.arsak.web.id/" class="font-bold">Linimasa</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Kliping berita dalam satu tema yang sama</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://inventaris.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
-				<img src="./inventaris.png" alt="Perpus" class="w-16 h-16 object-cover rounded-lg">
+				<img src="./inventaris.png" alt="Inventaris" class="w-16 h-16 object-cover rounded-lg">
 				<div>
 					<a href="https://inventaris.arsak.web.id/" class="font-bold">Inventaris</a>
 					<div class="text-gray-400">
