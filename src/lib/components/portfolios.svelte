@@ -173,13 +173,13 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://hotel.arsak.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://berita.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
-					<a href="https://hotel.arsak.web.id/" class="font-bold">Hotel</a>
+					<a href="https://berita.arsak.web.id/" class="font-bold">Berita</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Sistem Informasi Hotel (Demo)</p>
+						<p class="text-sm">Media online (demo)</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
@@ -189,13 +189,13 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://rental.arsak.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://hotel.arsak.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
-					<a href="https://rental.arsak.web.id/" class="font-bold">Rental</a>
+					<a href="https://hotel.arsak.web.id/" class="font-bold">Hotel</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Sistem Rental Kendaraan Bermotor (Demo)</p>
+						<p class="text-sm">Sistem Informasi Hotel (Demo)</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
