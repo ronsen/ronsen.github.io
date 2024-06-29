@@ -97,7 +97,7 @@
 			<div class="flex justify-start items-center gap-3">
 				<img src="./kasir.png" alt="Kasir" class="w-16 h-16 object-cover rounded-lg">
 				<div>
-					<a href="https://sada.web.id/" class="font-bold">Kasir</a>
+					<a href="https://app.sada.web.id/" class="font-bold">Kasir</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Aplikasi Kasir (Point-of-Sale) terbaik dan termurah</p>
 						<p class="text-xs text-gray-500">Laravel, Livewire, FilamentPHP, PostgreSQL</p>
@@ -113,7 +113,7 @@
 			<div class="flex justify-start items-center gap-3">
 				<img src="./linimasa.png" alt="Linimasa" class="w-16 h-16 object-cover rounded-lg">
 				<div>
-					<a href="https://linimasa.arsak.web.id/" class="font-bold">Linimasa</a>
+					<a href="https://sada.web.id/" class="font-bold">Linimasa</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Kliping berita dalam satu tema yang sama</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
