@@ -93,70 +93,6 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://app.sada.web.id/')}>
-			<div class="flex justify-start items-center gap-3">
-				<img src="./kasir.png" alt="Kasir" class="w-16 h-16 object-cover rounded-lg">
-				<div>
-					<a href="https://app.sada.web.id/" class="font-bold">Kasir</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Aplikasi Kasir (Point-of-Sale) terbaik dan termurah</p>
-						<p class="text-xs text-gray-500">Laravel, Livewire, FilamentPHP, PostgreSQL</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://sada.web.id/')}>
-			<div class="flex justify-start items-center gap-3">
-				<img src="./linimasa.png" alt="Linimasa" class="w-16 h-16 object-cover rounded-lg">
-				<div>
-					<a href="https://sada.web.id/" class="font-bold">Linimasa</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Kliping berita dalam satu tema yang sama</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://inventaris.arsak.web.id/')}>
-			<div class="flex justify-start items-center gap-3">
-				<img src="./inventaris.png" alt="Inventaris" class="w-16 h-16 object-cover rounded-lg">
-				<div>
-					<a href="https://inventaris.arsak.web.id/" class="font-bold">Inventaris</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Sistem Informasi Inventaris (Demo)</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://perpus.arsak.web.id/')}>
-			<div class="flex justify-start items-center gap-3">
-				<img src="./perpus.png" alt="Perpus" class="w-16 h-16 object-cover rounded-lg">
-				<div>
-					<a href="https://perpus.arsak.web.id/" class="font-bold">Perpus</a>
-					<div class="text-gray-400">
-						<p class="text-sm">Sistem Informasi Perpustakaan (Demo)</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
-					</div>
-				</div>
-			</div>
-			<Fa icon={faChevronRight} />
-		</div>
-
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://www.barakconsultant.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
@@ -205,11 +141,11 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://arsak.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://sintaks.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
-					<a href="https://arsak.web.id/" class="font-bold">Blog</a>
+					<a href="https://sintaks.web.id/" class="font-bold">Blog</a>
 					<div class="text-gray-400">
 						<p class="text-sm">My personal weblog</p>
 						<p class="text-xs text-gray-500">SvelteKit, Prisma, PostgreSQL</p>
