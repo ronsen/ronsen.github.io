@@ -5,7 +5,7 @@
 	let show = false;
 </script>
 
-<div class="flex flex-col gap-4 text-zinc-800 mt-3">
+<section class="flex flex-col gap-4 text-zinc-800 mt-3">
 	<button 
 		class="flex justify-center items-center gap-2 cursor-pointer font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 		on:click|preventDefault={() => show = !show}
@@ -38,4 +38,4 @@
 		<div class="bg-white rounded-full px-3">typescript</div>
 	</div>
 	{/if}
-</div>
+</section>

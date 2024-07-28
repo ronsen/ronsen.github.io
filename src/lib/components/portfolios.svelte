@@ -13,7 +13,7 @@
 	}
 </script>
 
-<div class="flex flex-col gap-4">
+<section class="flex flex-col gap-4">
 	<div class="flex flex-col gap-4">
 		<button 
 			class="flex justify-center items-center gap-2 font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
@@ -23,7 +23,6 @@
 			<Fa icon={faChevronDown} />
 		</button>
 	</div>
-
 
 	{#if show}
 	<div>
@@ -93,6 +92,22 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg text-yellow-200" on:click={() => go('https://demo.sintaks.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://demo.sintaks.web.id/" class="font-bold">Demo</a>
+					<div class="text-yellow-400">
+						<p class="text-sm">Try this first!</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://www.barakconsultant.com/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
@@ -156,4 +171,4 @@
 		</div>
 	</div>
 	{/if}
-</div>
+</section>

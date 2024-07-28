@@ -10,7 +10,7 @@
 
 <a href="/"><img src="./avatar.jpg" alt="[]" class="w-48 mx-auto mb-3 rounded-full shadow-lg"></a>
 
-<div class="text-center">
+<section class="text-center">
 	<h1 class="title text-4xl font-semibold mb-3 text-zinc-100"><a href="/">Ronald Nababan</a></h1>
 
 	<div class="mb-6">
@@ -27,7 +27,7 @@
 			Hire me!
 		</a>
 	</div>
-</div>
+</section>
 
 <Portfolios />
 
