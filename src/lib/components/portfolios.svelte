@@ -146,7 +146,7 @@
 				<div>
 					<a href="https://sarhap.sintaks.web.id/" class="font-bold">Sarhap</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Multi Vendor e-Commerce</p>
+						<p class="text-sm">Multi Vendor e-Commerce, integrated with Midtrans payment gateway</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
 					</div>
 				</div>
