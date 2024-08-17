@@ -99,7 +99,7 @@
 					<a href="https://demo.sintaks.web.id/" class="font-bold">Demo</a>
 					<div class="text-yellow-400">
 						<p class="text-sm">Try this first!</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
+						<p class="text-xs text-gray-500">Laravel, Livewire, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
