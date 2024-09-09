@@ -19,7 +19,7 @@
 			class="flex justify-center items-center gap-2 font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 			on:click|preventDefault={() => show = !show}
 		>
-			<span>Portfolios</span>
+			<span>Portfolio</span>
 			<Fa icon={faChevronDown} />
 		</button>
 	</div>
@@ -81,7 +81,7 @@
 				</a>
 				<div class="p-4">
 					<h2 class="font-bold"><a href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/">Popup This Video</a></h2>
-					<div class="text-sm mb-2">A browser extension that displays popups on videos</div>
+					<div class="text-sm mb-2">Ekstensi peramban web untuk menampilkan video <em>pop-up</em>.</div>
 					<div class="inline-flex flex-wrap gap-3">
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">JavaScript</div>
 						<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">Firefox</div>
@@ -114,7 +114,7 @@
 				<div>
 					<a href="https://www.barakconsultant.com/" class="font-bold">Barak Consultant Services</a>
 					<div class="text-gray-400">
-						<p class="text-sm">A company operating in the technology and information sector</p>
+						<p class="text-sm">Sebuah perusahaan yang bergerak di bidang teknologi dan informasi.</p>
 						<p class="text-xs text-gray-500">PHP</p>
 					</div>
 				</div>
@@ -178,7 +178,7 @@
 				<div>
 					<a href="https://s.id/guritan" class="font-bold">Guritan</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Markdown editor for Blogger</p>
+						<p class="text-sm">Penyunting <em>markdown</em> untuk Blogger</p>
 						<p class="text-xs text-gray-500">SvelteKit, Google Blogger API, Vercel</p>
 					</div>
 				</div>
@@ -194,7 +194,7 @@
 				<div>
 					<a href="https://sintaks.web.id/" class="font-bold">Blog</a>
 					<div class="text-gray-400">
-						<p class="text-sm">My personal weblog</p>
+						<p class="text-sm">Situs web pribadi</p>
 						<p class="text-xs text-gray-500">SvelteKit, Prisma, PostgreSQL</p>
 					</div>
 				</div>
