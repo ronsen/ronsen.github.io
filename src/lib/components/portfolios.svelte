@@ -124,14 +124,14 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
-		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://gereja.sintaks.web.id/')}>
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://gokkon.sintaks.web.id/')}>
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
-					<a href="https://gereja.sintaks.web.id/" class="font-bold">Gereja</a>
+					<a href="https://gokkon.sintaks.web.id/" class="font-bold">Gokkon</a>
 					<div class="text-gray-400">
-						<p class="text-sm">Sistem Informasi Gereja</p>
-						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
+						<p class="text-sm">Undangan pernikahan gratis</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 					</div>
 				</div>
 			</div>
@@ -144,9 +144,25 @@
 			<div class="flex justify-start items-center gap-3">
 				<Fa icon={faLink} />
 				<div>
-					<a href="https://sarhap.sintaks.web.id/" class="font-bold">Sarhap</a>
+					<a href="https://sarhap.sintaks.web.id/" class="font-bold">Toko Online</a>
 					<div class="text-gray-400">
 						<p class="text-sm">Multi Vendor e-Commerce, integrated with Midtrans payment gateway</p>
+						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
+					</div>
+				</div>
+			</div>
+			<Fa icon={faChevronRight} />
+		</div>
+
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg" on:click={() => go('https://gereja.sintaks.web.id/')}>
+			<div class="flex justify-start items-center gap-3">
+				<Fa icon={faLink} />
+				<div>
+					<a href="https://gereja.sintaks.web.id/" class="font-bold">Gereja</a>
+					<div class="text-gray-400">
+						<p class="text-sm">Sistem Informasi Gereja</p>
 						<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
 					</div>
 				</div>
