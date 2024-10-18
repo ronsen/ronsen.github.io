@@ -33,7 +33,7 @@
 			href="https://wa.me/6281319479396"
 			class="w-full text-xl font-bold border border-green-600 hover:border-green-700 rounded-full p-4 text-center bg-green-600 hover:bg-green-700 text-zinc-100 hover:text-zinc-50 transition ease-out duration-300"
 		>
-			Ngobrol dulu!
+			Ngobrol Yuk!
 		</a>
 	</div>
 </section>
