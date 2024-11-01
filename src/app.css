@@ -6,7 +6,3 @@
 	font-family: 'Geist';
 	src: local('/fonts/geist/Geist-Regular.woff2') format('woff2');
 }
-
-body {
-	font-family: Geist, sans-serif;
-}
