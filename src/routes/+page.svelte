@@ -2,6 +2,7 @@
 	import Portfolios from "$lib/components/portfolios.svelte";
 	import Skills from "$lib/components/skills.svelte";
 	import Socials from "$lib/components/socials.svelte";
+    import Writings from "$lib/components/writings.svelte";
 </script>
 
 <svelte:head>
@@ -41,5 +42,7 @@
 <Portfolios />
 
 <Skills />
+
+<Writings />
 
 <Socials />

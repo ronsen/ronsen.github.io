@@ -2,13 +2,13 @@
 	import Fa from "svelte-fa";
 	import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-	let show = false;
+	let show = $state(false);
 </script>
 
 <section class="flex flex-col gap-4 text-zinc-800 mt-3">
-	<button 
+	<button
 		class="flex justify-center items-center gap-2 cursor-pointer font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
-		on:click|preventDefault={() => show = !show}
+		onclick={() => show = !show}
 	>
 		<span>Skills</span>
 		<Fa icon={faChevronDown} />
