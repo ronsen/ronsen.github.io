@@ -74,7 +74,7 @@
 						<a
 							href={item.link}
 							target="_blank"
-							class="text-white/80 hover:text-white/90"
+							class="text-white/80 hover:text-white/90 block w-full"
 							>{item.title}</a
 						>
 
