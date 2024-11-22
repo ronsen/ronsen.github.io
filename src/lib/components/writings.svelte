@@ -38,8 +38,11 @@
 				pubDate: item.querySelector("pubDate")?.textContent,
 			}));
 		} catch (err) {
-			// @ts-ignore
-			error = err.message;
+			if (err instanceof Error) {
+				error = err.message;
+			} else {
+				error = err;
+			}
 		} finally {
 			loading = false;
 		}
@@ -58,7 +61,7 @@
 	{#if show}
 		<div>
 			{#if loading}
-				<p class="text-white/90">Loading RSS feed...</p>
+				<p class="text-white/90">Fetching...</p>
 			{:else if error}
 				<p class="text-white/90"><strong>Error:</strong> {error}</p>
 			{:else if feedItems.length === 0}
