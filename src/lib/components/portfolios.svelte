@@ -19,7 +19,7 @@
 			class="flex justify-center items-center gap-2 font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 			onclick={() => (show = !show)}
 		>
-			<span>Portofolio</span>
+			<span>Portfolio</span>
 			<Fa icon={faChevronDown} />
 		</button>
 	</div>
