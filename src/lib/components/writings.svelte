@@ -1,6 +1,9 @@
 <script>
 	import Fa from "svelte-fa";
-	import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+	import {
+		faChevronDown,
+		faSpinner,
+	} from "@fortawesome/free-solid-svg-icons";
 
 	let show = $state(false);
 
@@ -61,7 +64,12 @@
 	{#if show}
 		<div>
 			{#if loading}
-				<p class="text-white/90">Fetching...</p>
+				<div
+					class="flex justify-start items-center gap-2 text-white/90"
+				>
+					<Fa icon={faSpinner} spin />
+					<div>Fetching...</div>
+				</div>
 			{:else if error}
 				<p class="text-white/90"><strong>Error:</strong> {error}</p>
 			{:else if feedItems.length === 0}
