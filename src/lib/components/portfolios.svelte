@@ -223,9 +223,32 @@
 						<div class="text-gray-400">
 							<p class="text-sm">
 								Sebuah perusahaan yang bergerak di bidang
-								teknologi dan informasi.
+								teknologi dan informasi
 							</p>
 							<p class="text-xs text-gray-500">PHP</p>
+						</div>
+					</div>
+				</div>
+				<Fa icon={faChevronRight} />
+			</div>
+
+			<!-- svelte-ignore a11y_click_events_have_key_events -->
+			<!-- svelte-ignore a11y_no_static_element_interactions -->
+			<div
+				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
+				onclick={() => go("https://sada.web.id/sada")}
+			>
+				<div class="flex justify-start items-center gap-3">
+					<Fa icon={faLink} />
+					<div>
+						<a href="https://sada.web.id/sada" class="font-bold"
+							>Sada</a
+						>
+						<div class="text-gray-400">
+							<p class="text-sm">Pemendek tautan sederhana</p>
+							<p class="text-xs text-gray-500">
+								Laravel, Svelte 5, FilamentPHP, sqlite
+							</p>
 						</div>
 					</div>
 				</div>
@@ -274,29 +297,6 @@
 								Multi Vendor e-Commerce, integrated with
 								Midtrans payment gateway
 							</p>
-							<p class="text-xs text-gray-500">
-								Laravel, FilamentPHP, PostgreSQL
-							</p>
-						</div>
-					</div>
-				</div>
-				<Fa icon={faChevronRight} />
-			</div>
-
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<!-- svelte-ignore a11y_no_static_element_interactions -->
-			<div
-				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/sada")}
-			>
-				<div class="flex justify-start items-center gap-3">
-					<Fa icon={faLink} />
-					<div>
-						<a href="https://sada.web.id/sada" class="font-bold"
-							>Sada</a
-						>
-						<div class="text-gray-400">
-							<p class="text-sm">Pemendek tautan sederhana.</p>
 							<p class="text-xs text-gray-500">
 								Laravel, FilamentPHP, PostgreSQL
 							</p>
