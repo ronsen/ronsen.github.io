@@ -188,12 +188,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg text-yellow-200"
-				onclick={() => go("https://demo.sintaks.web.id/")}
+				onclick={() => go("https://sada.web.id/demo")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://demo.sintaks.web.id/" class="font-bold"
+						<a href="https://sada.web.id/demo" class="font-bold"
 							>Demo</a
 						>
 						<div class="text-yellow-400">
@@ -287,17 +287,16 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://gereja.sintaks.web.id/")}
+				onclick={() => go("https://sada.web.id/sada")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a
-							href="https://gereja.sintaks.web.id/"
-							class="font-bold">Gereja</a
+						<a href="https://sada.web.id/sada" class="font-bold"
+							>Sada</a
 						>
 						<div class="text-gray-400">
-							<p class="text-sm">Sistem Informasi Gereja</p>
+							<p class="text-sm">Pemendek tautan sederhana.</p>
 							<p class="text-xs text-gray-500">
 								Laravel, FilamentPHP, PostgreSQL
 							</p>
@@ -311,12 +310,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://ayatacak.vercel.app/")}
+				onclick={() => go("https://sada.web.id/ayatacak")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://ayatacak.vercel.app/" class="font-bold"
+						<a href="https://sada.web.id/ayatacak" class="font-bold"
 							>Ayat Acak Alkitab</a
 						>
 						<div class="text-gray-400">
@@ -334,12 +333,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://s.id/guritan")}
+				onclick={() => go("https://sada.web.id/guritan")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://s.id/guritan" class="font-bold"
+						<a href="https://sada.web.id/guritan" class="font-bold"
 							>Guritan</a
 						>
 						<div class="text-gray-400">
@@ -359,12 +358,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sintaks.web.id/")}
+				onclick={() => go("https://sada.web.id/sintaks")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sintaks.web.id/" class="font-bold"
+						<a href="https://sada.web.id/sintaks" class="font-bold"
 							>Blog</a
 						>
 						<div class="text-gray-400">
