@@ -27,55 +27,33 @@
 	{#if show}
 		<div>
 			<div class="grid grid-cols-2 gap-4 mb-6 text-black">
-				<div
-					class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md"
-				>
+				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 					<a href="https://www.hetanews.com/">
 						<div
 							class="flex justify-center items-center h-32 bg-amber-100 rounded-t-md"
 						>
-							<img
-								src="./hetanews.png"
-								alt="Heta News"
-								class="w-16"
-							/>
+							<img src="./hetanews.png" alt="Heta News" class="w-16" />
 						</div>
 					</a>
 					<div class="p-4">
 						<h2 class="font-bold">
 							<a href="https://www.hetanews.com/">Heta News</a>
 						</h2>
-						<div class="text-sm mb-2">
-							Media online Sumatera Utara
-						</div>
+						<div class="text-sm mb-2">Media online Sumatera Utara</div>
 						<div class="inline-flex flex-wrap gap-3">
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Laravel
 							</div>
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
-								mysql
-							</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 						</div>
 					</div>
 				</div>
-				<div
-					class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md"
-				>
-					<a
-						href="https://play.google.com/store/apps/details?id=com.hetanews"
-					>
+				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
+					<a href="https://play.google.com/store/apps/details?id=com.hetanews">
 						<div
 							class="flex justify-center items-center h-32 bg-cyan-100 rounded-t-md"
 						>
-							<img
-								src="./hetanews.png"
-								alt="Heta News"
-								class="w-16"
-							/>
+							<img src="./hetanews.png" alt="Heta News" class="w-16" />
 						</div>
 					</a>
 					<div class="p-4">
@@ -85,40 +63,24 @@
 								>Heta News (Android)</a
 							>
 						</h2>
-						<div class="text-sm mb-2">
-							Media online Sumatera Utara
-						</div>
+						<div class="text-sm mb-2">Media online Sumatera Utara</div>
 						<div class="inline-flex flex-wrap gap-3">
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Laravel
 							</div>
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
-								mysql
-							</div>
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Flutter
 							</div>
 						</div>
 					</div>
 				</div>
-				<div
-					class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md"
-				>
+				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 					<a href="https://fokus24.id/">
 						<div
 							class="flex justify-center items-center h-32 bg-red-100 rounded-t-md"
 						>
-							<img
-								src="./fokus24.png"
-								alt="Heta News"
-								class="w-16"
-							/>
+							<img src="./fokus24.png" alt="Heta News" class="w-16" />
 						</div>
 					</a>
 					<div class="p-4">
@@ -127,33 +89,21 @@
 						</h2>
 						<div class="text-sm mb-2">Tepercaya dan Akurat</div>
 						<div class="inline-flex flex-wrap gap-3">
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Laravel
 							</div>
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
-								mysql
-							</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 						</div>
 					</div>
 				</div>
-				<div
-					class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md"
-				>
+				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 					<a
 						href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/"
 					>
 						<div
 							class="flex justify-center items-center h-32 bg-gray-300 rounded-t-md"
 						>
-							<img
-								src="./popup.png"
-								alt="Heta News"
-								class="w-12"
-							/>
+							<img src="./popup.png" alt="Heta News" class="w-12" />
 						</div>
 					</a>
 					<div class="p-4">
@@ -164,19 +114,13 @@
 							>
 						</h2>
 						<div class="text-sm mb-2">
-							Ekstensi peramban web untuk menampilkan video <em
-								>pop-up</em
-							>.
+							Ekstensi peramban web untuk menampilkan video <em>pop-up</em>.
 						</div>
 						<div class="inline-flex flex-wrap gap-3">
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								JavaScript
 							</div>
-							<div
-								class="bg-zinc-300 px-2 py-1 rounded-lg text-xs"
-							>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Firefox
 							</div>
 						</div>
@@ -193,9 +137,7 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/demo" class="font-bold"
-							>Demo</a
-						>
+						<a href="https://sada.web.id/demo" class="font-bold">Demo</a>
 						<div class="text-yellow-400">
 							<p class="text-sm">Coba ini dulu!</p>
 							<p class="text-xs text-gray-500">
@@ -216,14 +158,13 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a
-							href="https://www.barakconsultant.com/"
-							class="font-bold">Barak Consultant Services</a
+						<a href="https://www.barakconsultant.com/" class="font-bold"
+							>Barak Consultant Services</a
 						>
 						<div class="text-gray-400">
 							<p class="text-sm">
-								Sebuah perusahaan yang bergerak di bidang
-								teknologi dan informasi
+								Sebuah perusahaan yang bergerak di bidang teknologi dan
+								informasi
 							</p>
 							<p class="text-xs text-gray-500">PHP</p>
 						</div>
@@ -241,9 +182,7 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/sada" class="font-bold"
-							>Sada</a
-						>
+						<a href="https://sada.web.id/sada" class="font-bold">Sada</a>
 						<div class="text-gray-400">
 							<p class="text-sm">Pemendek tautan sederhana</p>
 							<p class="text-xs text-gray-500">
@@ -264,15 +203,11 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a
-							href="https://gokkon.sintaks.web.id/"
-							class="font-bold">Gokkon</a
+						<a href="https://gokkon.sintaks.web.id/" class="font-bold">Gokkon</a
 						>
 						<div class="text-gray-400">
 							<p class="text-sm">Undangan pernikahan gratis</p>
-							<p class="text-xs text-gray-500">
-								Laravel, FilamentPHP, sqlite
-							</p>
+							<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
 						</div>
 					</div>
 				</div>
@@ -283,20 +218,14 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sarhap.sintaks.web.id/")}
+				onclick={() => go("https://sada.web.id/jajanhita")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a
-							href="https://sarhap.sintaks.web.id/"
-							class="font-bold">Toko Online</a
-						>
+						<a href="https://jajanhita.com/" class="font-bold">Jaja Hita</a>
 						<div class="text-gray-400">
-							<p class="text-sm">
-								Multi Vendor e-Commerce, integrated with
-								Midtrans payment gateway
-							</p>
+							<p class="text-sm">Toko oleh-oleh khas Siantar.</p>
 							<p class="text-xs text-gray-500">
 								Laravel, FilamentPHP, PostgreSQL
 							</p>
@@ -320,9 +249,7 @@
 						>
 						<div class="text-gray-400">
 							<p class="text-sm">Ayat emas Alkitab secara acak</p>
-							<p class="text-xs text-gray-500">
-								SvelteKit, Vercel
-							</p>
+							<p class="text-xs text-gray-500">SvelteKit, Vercel</p>
 						</div>
 					</div>
 				</div>
@@ -338,9 +265,7 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/guritan" class="font-bold"
-							>Guritan</a
-						>
+						<a href="https://sada.web.id/guritan" class="font-bold">Guritan</a>
 						<div class="text-gray-400">
 							<p class="text-sm">
 								Penyunting <em>markdown</em> untuk Blogger
@@ -363,14 +288,10 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/sintaks" class="font-bold"
-							>Blog</a
-						>
+						<a href="https://sada.web.id/sintaks" class="font-bold">Blog</a>
 						<div class="text-gray-400">
 							<p class="text-sm">Situs web pribadi</p>
-							<p class="text-xs text-gray-500">
-								SvelteKit, Prisma, PostgreSQL
-							</p>
+							<p class="text-xs text-gray-500">SvelteKit, Prisma, PostgreSQL</p>
 						</div>
 					</div>
 				</div>
