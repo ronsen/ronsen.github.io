@@ -19,7 +19,7 @@
 			class="flex justify-center items-center gap-2 font-bold border border-zinc-600 hover:border-zinc-700 rounded-full p-2 text-center bg-zinc-600 hover:bg-zinc-700 text-zinc-100 transition ease-out duration-300"
 			onclick={() => (show = !show)}
 		>
-			<span>Portfolio</span>
+			<span>Portfolios</span>
 			<Fa icon={faChevronDown} />
 		</button>
 	</div>
@@ -45,32 +45,31 @@
 								Laravel
 							</div>
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
+								Flutter
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
-					<a href="https://play.google.com/store/apps/details?id=com.hetanews">
+					<a href="https://jajanhita.com">
 						<div
 							class="flex justify-center items-center h-32 bg-cyan-100 rounded-t-md"
 						>
-							<img src="./hetanews.png" alt="Heta News" class="w-16" />
+							<img src="./jajanhita.png" alt="Heta News" class="w-16" />
 						</div>
 					</a>
 					<div class="p-4">
 						<h2 class="font-bold">
-							<a
-								href="https://play.google.com/store/apps/details?id=com.hetanews"
-								>Heta News (Android)</a
-							>
+							<a href="https://jajanhita.com">Jajan Hita</a>
 						</h2>
-						<div class="text-sm mb-2">Media online Sumatera Utara</div>
+						<div class="text-sm mb-2">Pusat oleh-oleh khas Siantar</div>
 						<div class="inline-flex flex-wrap gap-3">
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Laravel
 							</div>
-							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
-								Flutter
+								PostgreSQL
 							</div>
 						</div>
 					</div>
@@ -208,27 +207,6 @@
 						<div class="text-gray-400">
 							<p class="text-sm">Undangan pernikahan gratis</p>
 							<p class="text-xs text-gray-500">Laravel, FilamentPHP, sqlite</p>
-						</div>
-					</div>
-				</div>
-				<Fa icon={faChevronRight} />
-			</div>
-
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<!-- svelte-ignore a11y_no_static_element_interactions -->
-			<div
-				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/jajanhita")}
-			>
-				<div class="flex justify-start items-center gap-3">
-					<Fa icon={faLink} />
-					<div>
-						<a href="https://jajanhita.com/" class="font-bold">Jaja Hita</a>
-						<div class="text-gray-400">
-							<p class="text-sm">Toko oleh-oleh khas Siantar.</p>
-							<p class="text-xs text-gray-500">
-								Laravel, FilamentPHP, PostgreSQL
-							</p>
 						</div>
 					</div>
 				</div>

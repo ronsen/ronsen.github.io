@@ -18,7 +18,7 @@
 >
 
 <section class="text-center">
-	<h1 class="title text-4xl font-semibold mb-3 text-zinc-100">
+	<h1 class="title text-4xl font-semibold mb-3 text-zinc-100 varela-round">
 		<a href="/">Ronald Nababan</a>
 	</h1>
 
