@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.varela-round {
-	font-family: 'Varela Round';
+.rock-salt {
+	font-family: 'Rock Salt', cursive;
 }

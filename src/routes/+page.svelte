@@ -2,7 +2,7 @@
 	import Portfolios from "$lib/components/portfolios.svelte";
 	import Skills from "$lib/components/skills.svelte";
 	import Socials from "$lib/components/socials.svelte";
-    import Writings from "$lib/components/writings.svelte";
+	import Writings from "$lib/components/writings.svelte";
 </script>
 
 <svelte:head>
@@ -18,15 +18,14 @@
 >
 
 <section class="text-center">
-	<h1 class="title text-4xl font-semibold mb-3 text-zinc-100 varela-round">
+	<h1 class="title text-4xl font-semibold mb-3 text-zinc-100 rock-salt">
 		<a href="/">Ronald Nababan</a>
 	</h1>
 
 	<div class="mb-6">
-		Saya seorang programmer lepas yang memiliki pengalaman luas dalam
-		pembuatan perangkat lunak, situs web, dan aplikasi mobile. Selain itu,
-		saya juga memiliki minat besar pada teknologi, fotografi, dan
-		videografi.
+		Saya seorang programmer lepas yang memiliki pengalaman luas dalam pembuatan
+		perangkat lunak, situs web, dan aplikasi mobile. Selain itu, saya juga
+		memiliki minat besar pada teknologi, fotografi, dan videografi.
 	</div>
 
 	<div class="flex justify-center mb-6">
