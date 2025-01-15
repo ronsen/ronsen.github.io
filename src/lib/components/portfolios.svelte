@@ -131,12 +131,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg text-yellow-200"
-				onclick={() => go("https://sada.web.id/demo")}
+				onclick={() => go("https://demo.sintaks.web.id/")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/demo" class="font-bold">Demo</a>
+						<a href="https://demo.sintaks.web.id/" class="font-bold">Demo</a>
 						<div class="text-yellow-400">
 							<p class="text-sm">Coba ini dulu!</p>
 							<p class="text-xs text-gray-500">
@@ -172,26 +172,6 @@
 				<Fa icon={faChevronRight} />
 			</div>
 
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<!-- svelte-ignore a11y_no_static_element_interactions -->
-			<div
-				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/sada")}
-			>
-				<div class="flex justify-start items-center gap-3">
-					<Fa icon={faLink} />
-					<div>
-						<a href="https://sada.web.id/sada" class="font-bold">Sada</a>
-						<div class="text-gray-400">
-							<p class="text-sm">Pemendek tautan sederhana</p>
-							<p class="text-xs text-gray-500">
-								Laravel, Svelte 5, FilamentPHP, sqlite
-							</p>
-						</div>
-					</div>
-				</div>
-				<Fa icon={faChevronRight} />
-			</div>
 
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
@@ -217,12 +197,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/ayatacak")}
+				onclick={() => go("https://ayatacak.vercel.app/")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/ayatacak" class="font-bold"
+						<a href="https://ayatacak.vercel.app/" class="font-bold"
 							>Ayat Acak Alkitab</a
 						>
 						<div class="text-gray-400">
@@ -238,12 +218,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/guritan")}
+				onclick={() => go("https://guritan.vercel.app/")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/guritan" class="font-bold">Guritan</a>
+						<a href="https://guritan.vercel.app/" class="font-bold">Guritan</a>
 						<div class="text-gray-400">
 							<p class="text-sm">
 								Penyunting <em>markdown</em> untuk Blogger
@@ -261,12 +241,12 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
-				onclick={() => go("https://sada.web.id/sintaks")}
+				onclick={() => go("https://sintaks.web.id/")}
 			>
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://sada.web.id/sintaks" class="font-bold">Blog</a>
+						<a href="https://sintaks.web.id/" class="font-bold">Blog</a>
 						<div class="text-gray-400">
 							<p class="text-sm">Situs web pribadi</p>
 							<p class="text-xs text-gray-500">SvelteKit, Prisma, PostgreSQL</p>
