@@ -7,7 +7,7 @@
 
 	let show = $state(false);
 
-	const url = "https://sintaks.web.id/feed";
+	const url = "https://www.sintaks.web.id/feed";
 	let feedItems = $state();
 	let loading = $state(true);
 	let error = $state();
