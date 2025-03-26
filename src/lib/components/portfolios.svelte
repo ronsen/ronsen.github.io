@@ -51,29 +51,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
-					<a href="https://jajanhita.com">
-						<div
-							class="flex justify-center items-center h-32 bg-cyan-100 rounded-t-md"
-						>
-							<img src="./jajanhita.png" alt="Heta News" class="w-16" />
-						</div>
-					</a>
-					<div class="p-4">
-						<h2 class="font-bold">
-							<a href="https://jajanhita.com">Jajan Hita</a>
-						</h2>
-						<div class="text-sm mb-2">Pusat oleh-oleh khas Siantar</div>
-						<div class="inline-flex flex-wrap gap-3">
-							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
-								Laravel
-							</div>
-							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
-								PostgreSQL
-							</div>
-						</div>
-					</div>
-				</div>
+
 				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 					<a href="https://fokus24.id/">
 						<div
@@ -92,36 +70,6 @@
 								Laravel
 							</div>
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">mysql</div>
-						</div>
-					</div>
-				</div>
-				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
-					<a
-						href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/"
-					>
-						<div
-							class="flex justify-center items-center h-32 bg-gray-300 rounded-t-md"
-						>
-							<img src="./popup.png" alt="Heta News" class="w-12" />
-						</div>
-					</a>
-					<div class="p-4">
-						<h2 class="font-bold">
-							<a
-								href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/"
-								>Popup This Video</a
-							>
-						</h2>
-						<div class="text-sm mb-2">
-							Ekstensi peramban web untuk menampilkan video <em>pop-up</em>.
-						</div>
-						<div class="inline-flex flex-wrap gap-3">
-							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
-								JavaScript
-							</div>
-							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
-								Firefox
-							</div>
 						</div>
 					</div>
 				</div>
@@ -172,6 +120,32 @@
 				<Fa icon={faChevronRight} />
 			</div>
 
+			<!-- svelte-ignore a11y_click_events_have_key_events -->
+			<!-- svelte-ignore a11y_no_static_element_interactions -->
+			<div
+				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
+				onclick={() =>
+					go(
+						"https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/",
+					)}
+			>
+				<div class="flex justify-start items-center gap-3">
+					<Fa icon={faLink} />
+					<div>
+						<a
+							href="https://addons.mozilla.org/en-US/firefox/addon/popup-this-video/"
+							class="font-bold">Popup This Video</a
+						>
+						<div class="text-gray-400">
+							<p class="text-sm">
+								Ekstensi peramban web untuk menampilkan video <em>pop-up</em>.
+							</p>
+							<p class="text-xs text-gray-500">JavaScript, Firefox, Chrome</p>
+						</div>
+					</div>
+				</div>
+				<Fa icon={faChevronRight} />
+			</div>
 
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
