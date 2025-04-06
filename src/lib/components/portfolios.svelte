@@ -171,6 +171,26 @@
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<div
 				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
+				onclick={() => go("https://video.sintaks.web.id/")}
+			>
+				<div class="flex justify-start items-center gap-3">
+					<Fa icon={faLink} />
+					<div>
+						<a href="https://video.sintaks.web.id/" class="font-bold">Video</a
+						>
+						<div class="text-gray-400">
+							<p class="text-sm">Social Video Bookmarking</p>
+							<p class="text-xs text-gray-500">Laravel, Svelte, sqlite</p>
+						</div>
+					</div>
+				</div>
+				<Fa icon={faChevronRight} />
+			</div>
+
+			<!-- svelte-ignore a11y_click_events_have_key_events -->
+			<!-- svelte-ignore a11y_no_static_element_interactions -->
+			<div
+				class="flex justify-between items-center gap-3 p-3 hover:bg-zinc-800 cursor-pointer rounded-lg"
 				onclick={() => go("https://gokkon.sintaks.web.id/")}
 			>
 				<div class="flex justify-start items-center gap-3">
