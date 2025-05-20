@@ -54,6 +54,9 @@
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Mail server
 							</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
+								Android
+							</div>
 						</div>
 					</div>
 				</div>
