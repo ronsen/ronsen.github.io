@@ -48,6 +48,12 @@
 							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
 								Flutter
 							</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
+								Typesense
+							</div>
+							<div class="bg-zinc-300 px-2 py-1 rounded-lg text-xs">
+								Mail server
+							</div>
 						</div>
 					</div>
 				</div>
@@ -156,11 +162,14 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://marketplace.sintaks.web.id/" class="font-bold">Marketplace</a
+						<a href="https://marketplace.sintaks.web.id/" class="font-bold"
+							>Marketplace</a
 						>
 						<div class="text-gray-400">
 							<p class="text-sm">Multi vendor online shop</p>
-							<p class="text-xs text-gray-500">Laravel, FilamentPHP, PostgreSQL</p>
+							<p class="text-xs text-gray-500">
+								Laravel, FilamentPHP, PostgreSQL
+							</p>
 						</div>
 					</div>
 				</div>
@@ -176,7 +185,8 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://kecilin.sintaks.web.id/" class="font-bold">Kecilin</a
+						<a href="https://kecilin.sintaks.web.id/" class="font-bold"
+							>Kecilin</a
 						>
 						<div class="text-gray-400">
 							<p class="text-sm">Ngecilin gambar-gambar yang besar</p>
@@ -196,8 +206,7 @@
 				<div class="flex justify-start items-center gap-3">
 					<Fa icon={faLink} />
 					<div>
-						<a href="https://video.sintaks.web.id/" class="font-bold">Video</a
-						>
+						<a href="https://video.sintaks.web.id/" class="font-bold">Video</a>
 						<div class="text-gray-400">
 							<p class="text-sm">Social Video Bookmarking</p>
 							<p class="text-xs text-gray-500">Laravel, Svelte, sqlite</p>
