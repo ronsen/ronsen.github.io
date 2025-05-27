@@ -9,16 +9,18 @@
 	<title>Ronald Nababan</title>
 </svelte:head>
 
-<a href="/"
-	><img
-		src="./avatar.jpg"
-		alt="[]"
-		class="w-48 mx-auto mb-3 rounded-full shadow-lg"
-	/></a
->
+<div class="mb-6">
+	<a href="/"
+		><img
+			src="./avatar.jpg"
+			alt="[]"
+			class="w-48 mx-auto rounded-full shadow-lg"
+		/></a
+	>
+</div>
 
 <section class="text-center">
-	<h1 class="title text-4xl font-semibold mb-6 text-zinc-100 rock-salt">
+	<h1 class="title text-4xl font-semibold mb-6 text-zinc-100">
 		<a href="/">Ronald Nababan</a>
 	</h1>
 

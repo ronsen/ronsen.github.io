@@ -26,7 +26,7 @@
 
 	{#if show}
 		<div>
-			<div class="grid grid-cols-2 gap-4 mb-6 text-black">
+			<div class="grid md:grid-cols-2 gap-4 mb-6 text-black">
 				<div class="border border-zinc-800 bg-zinc-100 shadow-lg rounded-md">
 					<a href="https://www.hetanews.com/">
 						<div
