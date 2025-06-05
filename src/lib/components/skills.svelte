@@ -15,9 +15,9 @@
 					<ul>
 						<li>PHP</li>
 						<li>JavaScript</li>
+						<li>Dart</li>
 						<li>Python</li>
 						<li>Java</li>
-						<li>Dart</li>
 					</ul>
 				</div>
 			</div>
@@ -58,6 +58,8 @@
 					<ul>
 						<li>Linux</li>
 						<li>Docker</li>
+						<li>Mail server</li>
+						<li>nginx</li>
 						<li>git</li>
 					</ul>
 				</div>
