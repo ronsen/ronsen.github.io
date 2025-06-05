@@ -11,6 +11,10 @@ section {
 	@apply px-10 py-20 md:px-20;
 }
 
+section .section-container {
+	@apply w-full md:w-3xl mx-auto;
+}
+
 section .section-title {
 	@apply text-center text-xl font-bold mb-6;
 }
