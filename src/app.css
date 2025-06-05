@@ -3,12 +3,12 @@
 @source '../src/';
 
 @theme {
-  --font-sans: Geist, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	--font-sans: Geist, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 section {
-	@apply px-10 py-20 md:px-20;
+	@apply px-6 py-20 md:px-20;
 }
 
 section .section-container {
@@ -20,7 +20,7 @@ section .section-title {
 }
 
 .card {
-	@apply border border-zinc-200 shadow p-6;
+	@apply border border-zinc-200 shadow p-6 rounded bg-white;
 }
 
 .card .card-title {
@@ -28,11 +28,11 @@ section .section-title {
 }
 
 .card .card-content {
-	@apply mt-3;
+	@apply mt-3 text-sm;
 }
 
 .btn {
-	@apply px-6 py-3 rounded-lg;
+	@apply px-6 py-3 rounded-full;
 }
 
 .btn-primary {
