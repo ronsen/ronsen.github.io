@@ -28,7 +28,7 @@ section .section-title {
 }
 
 .card .card-content {
-	@apply mt-3 text-sm;
+	@apply mt-3;
 }
 
 .btn {
