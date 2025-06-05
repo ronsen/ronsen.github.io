@@ -53,7 +53,7 @@
 <section class="bg-zinc-50">
 	<div class="section-container">
 		<h3 class="section-title">Technical Skills</h3>
-		<div class="grid grid-cols-2 gap-4">
+		<div class="grid md:grid-cols-2 gap-4">
 			<div class="card">
 				<div class="card-title">
 					<Code size={16} />
