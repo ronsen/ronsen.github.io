@@ -7,6 +7,34 @@
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.rock-salt {
-	font-family: 'Rock Salt', cursive;
+section {
+	@apply px-10 py-20 md:px-20;
+}
+
+section .section-title {
+	@apply text-center text-xl font-bold mb-6;
+}
+
+.card {
+	@apply border border-zinc-200 shadow p-6;
+}
+
+.card .card-title {
+	@apply inline-flex items-center gap-1 font-bold;
+}
+
+.card .card-content {
+	@apply mt-3;
+}
+
+.btn {
+	@apply px-6 py-3 rounded-lg;
+}
+
+.btn-primary {
+	@apply bg-sky-600 hover:bg-sky-700 text-white;
+}
+
+.btn-success {
+	@apply bg-green-600 hover:bg-green-700 text-white;
 }
