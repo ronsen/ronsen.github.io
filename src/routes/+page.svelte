@@ -177,7 +177,7 @@
 				><Mail /><span>Email me</span></a
 			>
 			<a
-				href="mailto:ronsen@startrek.or.id"
+				href="https://wa.me/6281319479396"
 				class="btn btn-success inline-flex items-center gap-2"
 				><MessageCircle /><span>WhatsApp</span></a
 			>
