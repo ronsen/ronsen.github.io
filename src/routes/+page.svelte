@@ -12,6 +12,7 @@
 		Smartphone,
 		SquareArrowOutUpRight,
 		Twitter,
+		Wrench,
 	} from "lucide-svelte";
 </script>
 
@@ -98,7 +99,7 @@
 			</div>
 			<div class="card">
 				<div class="card-title">
-					<Smartphone size={16} />
+					<Wrench size={16} />
 					<span>Tools</span>
 				</div>
 				<div class="card-content">
