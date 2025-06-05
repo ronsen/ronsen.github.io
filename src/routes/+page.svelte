@@ -170,7 +170,7 @@
 			Do you have any questions regarding website and application development?
 			Let's discuss first!
 		</div>
-		<div class="flex justify-center items-center gap-4">
+		<div class="grid md:grid-cols-2 gap-4">
 			<a
 				href="mailto:ronsen@startrek.or.id"
 				class="btn btn-primary inline-flex items-center gap-2"
