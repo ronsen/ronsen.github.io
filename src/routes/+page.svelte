@@ -7,9 +7,9 @@
 	import Skills from "$lib/components/skills.svelte";
 </script>
 
-<Header />
-<Expertise />
-<Skills />
-<Projects />
-<Contact />
-<Footer />
+<Header/>
+<Expertise/>
+<Skills/>
+<Projects/>
+<Contact/>
+<Footer/>

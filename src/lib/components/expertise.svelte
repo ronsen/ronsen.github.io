@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Globe, Smartphone } from "lucide-svelte";
+	import {Globe, Smartphone} from "lucide-svelte";
 </script>
 
 <section>
@@ -8,7 +8,7 @@
 		<div class="grid md:grid-cols-2 gap-4">
 			<div class="card">
 				<div class="card-title">
-					<Globe />
+					<Globe/>
 					<span>Web Programming</span>
 				</div>
 				<div class="card-content">
@@ -20,7 +20,7 @@
 			</div>
 			<div class="card">
 				<div class="card-title">
-					<Smartphone />
+					<Smartphone/>
 					<span>Mobile Programming</span>
 				</div>
 				<div class="card-content">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Code, Database, Frame, Wrench } from "lucide-svelte";
+	import {Code, Database, Frame, Wrench} from "lucide-svelte";
 </script>
 
 <section class="bg-zinc-50">
@@ -8,7 +8,7 @@
 		<div class="grid md:grid-cols-2 gap-4">
 			<div class="card">
 				<div class="card-title">
-					<Code size={16} />
+					<Code size={16}/>
 					<span>Programming</span>
 				</div>
 				<div class="card-content">
@@ -23,7 +23,7 @@
 			</div>
 			<div class="card">
 				<div class="card-title">
-					<Frame size={16} />
+					<Frame size={16}/>
 					<span>Frameworks</span>
 				</div>
 				<div class="card-content">
@@ -33,12 +33,13 @@
 						<li>Prisma</li>
 						<li>ExpressJS</li>
 						<li>Flutter</li>
+						<li>TailwindCSS</li>
 					</ul>
 				</div>
 			</div>
 			<div class="card">
 				<div class="card-title">
-					<Database size={16} />
+					<Database size={16}/>
 					<span>Databases</span>
 				</div>
 				<div class="card-content">
@@ -51,7 +52,7 @@
 			</div>
 			<div class="card">
 				<div class="card-title">
-					<Wrench size={16} />
+					<Wrench size={16}/>
 					<span>Tools</span>
 				</div>
 				<div class="card-content">

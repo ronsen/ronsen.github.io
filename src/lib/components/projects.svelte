@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SquareArrowOutUpRight } from "lucide-svelte";
+	import {SquareArrowOutUpRight} from "lucide-svelte";
 </script>
 
 <section>
@@ -10,40 +10,44 @@
 				<div class="flex justify-between items-center gap-2">
 					<div class="inline-flex items-center gap-1">
 						<img
+							alt="[]"
 							src="https://www.hetanews.com/favicon.ico"
 							width="16px"
-							alt="[]"
 						/>
-						<span>Heta News</span>
+						<a href="https://www.hetanews.com" target="_blank">Heta News</a>
 					</div>
 					<a href="https://www.hetanews.com" target="_blank"
-						><SquareArrowOutUpRight size={14} /></a
+					>
+						<SquareArrowOutUpRight size={14}/>
+					</a
 					>
 				</div>
 			</div>
 			<div class="card">
 				<div class="flex justify-between items-center gap-2">
 					<div class="inline-flex items-center gap-1">
-						<img src="https://fokus24.id/favicon.ico" width="16px" alt="[]" />
-						<span>Fokus24</span>
+						<img alt="[]" src="https://fokus24.id/favicon.ico" width="16px"/>
+						<a href="https://fokus24.id" target="_blank">Fokus24</a>
 					</div>
-					<a href="https://fokus24.id" target="_blank"
-						><SquareArrowOutUpRight size={14} /></a
-					>
+					<a href="https://fokus24.id" target="_blank">
+						<SquareArrowOutUpRight size={14}/>
+					</a>
 				</div>
 			</div>
 			<div class="card">
 				<div class="flex justify-between items-center gap-2">
 					<div class="inline-flex items-center gap-1">
 						<img
+							alt="[]"
 							src="https://kilasutama.com/favicon.ico"
 							width="16px"
-							alt="[]"
 						/>
-						<span>Kilas Utama</span>
+						<a href="https://kilasutama.com">Kilas Utama</a>
 					</div>
 					<a href="https://kilasutama.com" target="_blank"
-						><SquareArrowOutUpRight size={14} /></a
+					>
+						<SquareArrowOutUpRight size={14}/>
+					</a
 					>
 				</div>
 			</div>

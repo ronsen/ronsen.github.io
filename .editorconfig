@@ -11,9 +11,9 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{html,svelte}]
+[*.css]
 indent_size = 2
 
-[*.{json,css}]
+[*.json]
 indent_size = 2
 indent_style = space
