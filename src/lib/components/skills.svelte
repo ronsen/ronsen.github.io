@@ -62,6 +62,7 @@
 						<li>Mail server</li>
 						<li>nginx</li>
 						<li>git</li>
+						<li>Ollama AI</li>
 					</ul>
 				</div>
 			</div>
