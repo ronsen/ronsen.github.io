@@ -2,7 +2,7 @@
 	import {Mail, MessageCircle,} from "lucide-svelte";
 </script>
 
-<section class="bg-zinc-50">
+<section>
 	<div class="section-container">
 		<h3 class="section-title">Let's Connect</h3>
 		<div class="text-center mb-6">

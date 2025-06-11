@@ -12,6 +12,6 @@
 <Expertise />
 <Skills />
 <Projects />
-<Contact />
 <Writings />
+<Contact />
 <Footer />

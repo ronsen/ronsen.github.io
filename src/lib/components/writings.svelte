@@ -40,7 +40,7 @@
 	}
 </script>
 
-<section>
+<section class="bg-zinc-50">
 	<div class="section-container">
 		<h3 class="section-title">Writings</h3>
 
