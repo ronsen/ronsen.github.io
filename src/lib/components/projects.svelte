@@ -7,51 +7,49 @@
 		<h3 class="section-title">Projects</h3>
 		<div class="grid md:grid-cols-3 gap-4">
 			<div class="card">
-				<div class="flex justify-between items-center gap-2">
-					<div class="inline-flex items-center gap-1">
-						<img
-							alt="[]"
-							src="https://www.hetanews.com/favicon.ico"
-							width="16px"
-						/>
-						<a href="https://www.hetanews.com" target="_blank"
-							>Heta News</a
-						>
-					</div>
-					<a href="https://www.hetanews.com" target="_blank">
+				<a href="https://www.hetanews.com" target="_blank">
+					<div class="flex justify-between items-center gap-2">
+						<div class="inline-flex items-center gap-1">
+							<img
+								alt="[]"
+								src="https://www.hetanews.com/favicon.ico"
+								width="12px"
+							/>
+							Heta News
+						</div>
 						<SquareArrowOutUpRight size={14} />
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 			<div class="card">
-				<div class="flex justify-between items-center gap-2">
-					<div class="inline-flex items-center gap-1">
-						<img
-							alt="[]"
-							src="https://fokus24.id/favicon.ico"
-							width="16px"
-						/>
-						<a href="https://fokus24.id" target="_blank">Fokus24</a>
-					</div>
-					<a href="https://fokus24.id" target="_blank">
+				<a href="https://fokus24.id" target="_blank">
+					<div class="flex justify-between items-center gap-2">
+						<div class="inline-flex items-center gap-1">
+							<img
+								alt="[]"
+								src="https://fokus24.id/favicon.ico"
+								width="12px"
+							/>
+							Fokus24
+						</div>
 						<SquareArrowOutUpRight size={14} />
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 			<div class="card">
-				<div class="flex justify-between items-center gap-2">
-					<div class="inline-flex items-center gap-1">
-						<img
-							alt="[]"
-							src="https://kilasutama.com/favicon.ico"
-							width="16px"
-						/>
-						<a href="https://kilasutama.com">Kilas Utama</a>
-					</div>
-					<a href="https://kilasutama.com" target="_blank">
+				<a href="https://kilasutama.com" target="_blank">
+					<div class="flex justify-between items-center gap-2">
+						<div class="inline-flex items-center gap-1">
+							<img
+								alt="[]"
+								src="https://kilasutama.com/favicon.ico"
+								width="12px"
+							/>
+							Kilas Utama
+						</div>
 						<SquareArrowOutUpRight size={14} />
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
