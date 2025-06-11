@@ -5,11 +5,13 @@
 	import Header from "$lib/components/header.svelte";
 	import Projects from "$lib/components/projects.svelte";
 	import Skills from "$lib/components/skills.svelte";
+	import Writings from "$lib/components/writings.svelte";
 </script>
 
-<Header/>
-<Expertise/>
-<Skills/>
-<Projects/>
-<Contact/>
-<Footer/>
+<Header />
+<Expertise />
+<Skills />
+<Projects />
+<Contact />
+<Writings />
+<Footer />
