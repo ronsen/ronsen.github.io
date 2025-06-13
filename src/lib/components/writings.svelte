@@ -3,7 +3,9 @@
 
 	const url = "https://echo.sintaks.web.id/feed";
 	let feedItems = $state();
-	
+	let loading = $state(true);
+	let error = $state();
+
 	onMount(() => {
 		fetchArticles();
 	});
@@ -35,7 +37,13 @@
 				pubDate: item.querySelector("pubDate")?.textContent,
 			}));
 		} catch (err) {
+			if (err instanceof Error) {
+				error = err.message;
+			} else {
+				error = err;
+			}
 		} finally {
+			loading = false;
 		}
 	}
 </script>
@@ -44,21 +52,26 @@
 	<div class="section-container">
 		<h3 class="section-title">Writings</h3>
 
-		{#each feedItems as item}
-			<div
-				class="flex justify-between gap-4 items-center border-b border-zinc-300 mb-2 pb-2"
-			>
-				<a
-					href={item.link}
-					target="_blank"
-					class="block w-full"
-					>{item.title}</a
+		{#if loading}
+			<p>Fetching...</p>
+		{:else if error}
+			<p><strong>Error:</strong> {error}</p>
+		{:else if feedItems.length === 0}
+			<p>No feed items found.</p>
+		{:else}
+			{#each feedItems as item}
+				<div
+					class="flex justify-between gap-4 items-center border-b border-zinc-300 mb-2 pb-2"
 				>
+					<a href={item.link} target="_blank" class="block w-full"
+						>{item.title}</a
+					>
 
-				<div class="text-xs">
-					{new Date(item.pubDate).toLocaleDateString()}
+					<div class="text-xs">
+						{new Date(item.pubDate).toLocaleDateString()}
+					</div>
 				</div>
-			</div>
-		{/each}
+			{/each}
+		{/if}
 	</div>
 </section>
