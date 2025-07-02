@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Code, Database, Frame, Wrench} from "lucide-svelte";
+	import {Code, Database, Frame, Wrench} from "@lucide/svelte";
 </script>
 
 <section class="bg-zinc-50">

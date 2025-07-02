@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Globe, Smartphone} from "lucide-svelte";
+	import {Globe, Smartphone} from "@lucide/svelte";
 </script>
 
 <section>

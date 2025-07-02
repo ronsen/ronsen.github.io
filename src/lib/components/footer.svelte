@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Building2, Github, Rss, Twitter} from "lucide-svelte";
+	import {Building2, Github, Rss, Twitter} from "@lucide/svelte";
 </script>
 
 <section class="bg-zinc-900 text-white">

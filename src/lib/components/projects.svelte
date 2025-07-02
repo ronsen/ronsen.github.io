@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SquareArrowOutUpRight } from "lucide-svelte";
+	import { SquareArrowOutUpRight } from "@lucide/svelte";
 </script>
 
 <section>

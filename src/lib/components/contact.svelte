@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Mail, MessageCircle,} from "lucide-svelte";
+	import {Mail, MessageCircle,} from "@lucide/svelte";
 </script>
 
 <section>
