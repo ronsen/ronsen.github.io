@@ -10,7 +10,7 @@
 				<Building2 size={18}/>
 			</a
 			>
-			<a href="https://echo.sintaks.web.id" target="_blank">
+			<a href="https://ronsen.vercel.app" target="_blank">
 				<Rss size={18}/>
 			</a
 			>
