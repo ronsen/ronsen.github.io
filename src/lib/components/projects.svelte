@@ -37,12 +37,12 @@
 				</a>
 			</div>
 			<div class="card">
-				<a href="https://kilasutama.com" target="_blank">
+				<a href="https://kilasutama.sintaks.web.id" target="_blank">
 					<div class="flex justify-between items-center gap-2">
 						<div class="inline-flex items-center gap-1">
 							<img
 								alt="[]"
-								src="https://kilasutama.com/favicon.ico"
+								src="https://kilasutama.sintaks.web.id/favicon.ico"
 								width="12px"
 							/>
 							Kilas Utama
@@ -57,16 +57,16 @@
 	<div class="section-container mb-12">
 		<h3 class="section-title">Fun Projects</h3>
 		<div class="mb-4">
-			<a href="https://coverletter.sintaks.web.id/" target="_blank">
+			<a href="https://ace.sintaks.web.id/" target="_blank">
 				<div class="flex justify-between gap-4">
 					<div>
-						<strong>Cover Letter</strong> &mdash; Bikin
-						<em>cover letter</em> lebih mudah
+						<strong>Ace</strong> &mdash; Easy bookmark manager
 					</div>
 					<SquareArrowOutUpRight size={14} />
 				</div>
 			</a>
 		</div>
+
 		<div class="mb-4">
 			<a href="https://asikin.sintaks.web.id/" target="_blank">
 				<div class="flex justify-between gap-4">
@@ -78,10 +78,11 @@
 			</a>
 		</div>
 		<div class="mb-4">
-			<a href="https://echo.sintaks.web.id/" target="_blank">
+			<a href="https://coverletter.sintaks.web.id/" target="_blank">
 				<div class="flex justify-between gap-4">
 					<div>
-						<strong>Echo</strong> &mdash; Blog, gallery, and bookmarks
+						<strong>Cover Letter</strong> &mdash; Bikin
+						<em>cover letter</em> lebih mudah
 					</div>
 					<SquareArrowOutUpRight size={14} />
 				</div>

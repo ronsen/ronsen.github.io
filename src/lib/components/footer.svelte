@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Building2, Github, Rss, Twitter} from "@lucide/svelte";
+	import {Building2, Github, ScrollText, Twitter} from "@lucide/svelte";
 </script>
 
 <section class="bg-zinc-900 text-white">
@@ -11,7 +11,7 @@
 			</a
 			>
 			<a href="https://ronsen.vercel.app" target="_blank">
-				<Rss size={18}/>
+				<ScrollText size={18}/>
 			</a
 			>
 			<a href="https://github.com/ronsen" target="_blank"
