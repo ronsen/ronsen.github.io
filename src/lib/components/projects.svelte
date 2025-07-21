@@ -99,16 +99,6 @@
 			</a>
 		</div>
 		<div class="mb-4">
-			<a href="https://gokkon.sintaks.web.id/" target="_blank">
-				<div class="flex justify-between gap-4">
-					<div>
-						<strong>Gokkon</strong> &mdash; Undangan pernikahan gratis
-					</div>
-					<SquareArrowOutUpRight size={14} />
-				</div>
-			</a>
-		</div>
-		<div class="mb-4">
 			<a href="https://guritan.vercel.app/" target="_blank">
 				<div class="flex justify-between gap-4">
 					<div>
