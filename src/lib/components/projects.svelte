@@ -5,7 +5,7 @@
 <section>
 	<div class="section-container mb-12">
 		<h3 class="section-title">Projects</h3>
-		<div class="grid md:grid-cols-3 gap-4">
+		<div class="grid md:grid-cols-2 gap-4">
 			<div class="card">
 				<a href="https://www.hetanews.com" target="_blank">
 					<div class="flex justify-between items-center gap-2">
@@ -31,21 +31,6 @@
 								width="12px"
 							/>
 							Fokus24
-						</div>
-						<SquareArrowOutUpRight size={14} />
-					</div>
-				</a>
-			</div>
-			<div class="card">
-				<a href="https://kilasutama.sintaks.web.id" target="_blank">
-					<div class="flex justify-between items-center gap-2">
-						<div class="inline-flex items-center gap-1">
-							<img
-								alt="[]"
-								src="https://kilasutama.sintaks.web.id/favicon.ico"
-								width="12px"
-							/>
-							Kilas Utama
 						</div>
 						<SquareArrowOutUpRight size={14} />
 					</div>
