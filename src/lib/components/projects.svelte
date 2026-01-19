@@ -63,17 +63,6 @@
 			</a>
 		</div>
 		<div class="mb-4">
-			<a href="https://coverletter.sintaks.web.id/" target="_blank">
-				<div class="flex justify-between gap-4">
-					<div>
-						<strong>Cover Letter</strong> &mdash; Bikin
-						<em>cover letter</em> lebih mudah
-					</div>
-					<SquareArrowOutUpRight size={14} />
-				</div>
-			</a>
-		</div>
-		<div class="mb-4">
 			<a href="https://ende.sintaks.web.id/" target="_blank">
 				<div class="flex justify-between gap-4">
 					<div>
@@ -125,17 +114,6 @@
 					<div>
 						<strong>Berita</strong> &mdash;
 						<em>Content management system</em> untuk situs web berita
-					</div>
-					<SquareArrowOutUpRight size={14} />
-				</div>
-			</a>
-		</div>
-		<div class="mb-4">
-			<a href="https://marketplace.sintaks.web.id/" target="_blank">
-				<div class="flex justify-between gap-4">
-					<div>
-						<strong>Marketplace</strong> &mdash; Multi-vendor online
-						shop
 					</div>
 					<SquareArrowOutUpRight size={14} />
 				</div>
