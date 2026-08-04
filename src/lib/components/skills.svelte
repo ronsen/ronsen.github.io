@@ -31,9 +31,11 @@
 						<li>Laravel</li>
 						<li>Svelte/SvelteKit</li>
 						<li>Prisma</li>
+						<li>Drizzle ORM</li>
 						<li>ExpressJS</li>
 						<li>Flutter</li>
-						<li>TailwindCSS</li>
+						<li>Tailwind CSS</li>
+						<li>Shadcn</li>
 					</ul>
 				</div>
 			</div>

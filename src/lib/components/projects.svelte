@@ -53,16 +53,6 @@
 		</div>
 
 		<div class="mb-4">
-			<a href="https://asikin.sintaks.web.id/" target="_blank">
-				<div class="flex justify-between gap-4">
-					<div>
-						<strong>Asikin</strong> &mdash; YouTube trending videos
-					</div>
-					<SquareArrowOutUpRight size={14} />
-				</div>
-			</a>
-		</div>
-		<div class="mb-4">
 			<a href="https://ende.sintaks.web.id/" target="_blank">
 				<div class="flex justify-between gap-4">
 					<div>
@@ -78,17 +68,6 @@
 					<div>
 						<strong>Guritan</strong> &mdash; Penyunting
 						<em>markdown</em> untuk Blogger
-					</div>
-					<SquareArrowOutUpRight size={14} />
-				</div>
-			</a>
-		</div>
-		<div class="mb-4">
-			<a href="https://kecilin.sintaks.web.id/" target="_blank">
-				<div class="flex justify-between gap-4">
-					<div>
-						<strong>Kecilin</strong> &mdash; Ngecilin gambar-gambar yang
-						berukuran besar
 					</div>
 					<SquareArrowOutUpRight size={14} />
 				</div>
